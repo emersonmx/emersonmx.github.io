@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Um simples diário de um programador
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.emersonmx.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-lang: 'pt-BR'
+lang: pt-BR
 social:
   twitter:
     username: emersonmx
