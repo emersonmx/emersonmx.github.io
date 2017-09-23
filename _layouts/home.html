@@ -3,22 +3,21 @@ layout: default
 ---
 
 <div>
-  <h1>Posts</h1>
+    {{ content }}
 
-  {{ content }}
-
-  <ul>
     {% for post in site.posts %}
-      <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span>{{ post.date | date: date_format }}</span>
-
+    <article>
         <h2>
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+            </a>
         </h2>
-      </li>
+        <p><span>{{ post.date | date: date_format }}</span></p>
+        <p>{{ post.excerpt }}</p>
+        <p><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+    </article>
     {% endfor %}
-  </ul>
 
-  <p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
