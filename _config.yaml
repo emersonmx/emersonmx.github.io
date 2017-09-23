@@ -41,6 +41,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - package.json
+  - package-lock.json
+  - webpack.mix.js
   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
