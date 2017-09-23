@@ -14,7 +14,7 @@ layout: default
             </a>
         </h2>
         <p><span>{{ post.date | date: date_format }}</span></p>
-        <p>{{ post.excerpt }}</p>
+        {{ post.excerpt }}
         <p><a href="{{ post.url | relative_url }}">Leia mais</a></p>
     </article>
     {% endfor %}
