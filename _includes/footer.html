@@ -1,0 +1,43 @@
+<footer>
+    <div>
+        <h2>{{ site.title | escape }}</h2>
+        <div>
+            <div>
+                <ul>
+                    <li>
+                        {% if site.author %}
+                            {{ site.author | escape }}
+                        {% else %}
+                            {{ site.title | escape }}
+                        {% endif %}
+                    </li>
+                    {% if site.email %}
+                        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    {% if site.social.github.username%}
+                        <li>
+                            {% include icon-github.html username=site.social.github.username %}
+                        </li>
+                    {% endif %}
+
+                    {% if site.social.twitter.username %}
+                        <li>
+                            {% include icon-twitter.html username=site.social.twitter.username %}
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div>
+                <p>{{ site.description | escape }}</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% include scripts.html %}

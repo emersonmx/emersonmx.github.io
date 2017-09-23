@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>{{ site.title }}</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" href="{{ '/assets/css/plugins.css?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include google-analytics.html %}
+{% endif %}
