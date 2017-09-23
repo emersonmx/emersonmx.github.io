@@ -28,8 +28,8 @@ social:
 google_analytics: UA-69408424-1
 
 permalink: /:categories/:title/
-# paginate: 5
-# paginate_path: "/page:num/"
+paginate: 5
+paginate_path: "/page:num/"
 
 # Build settings
 markdown: kramdown
