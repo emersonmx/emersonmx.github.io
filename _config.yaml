@@ -51,6 +51,7 @@ exclude:
   - package-lock.json
   - webpack.mix.js
   - node_modules/
+  - mix-manifest.json
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
