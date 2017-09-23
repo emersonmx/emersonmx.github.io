@@ -12,4 +12,5 @@ let mix = require('laravel-mix');
  */
 
 mix.js('_scripts/site.js', 'assets/js')
+   .js('_scripts/plugins.js', 'assets/js')
    .sass('_sass/site.scss', 'assets/css/');
