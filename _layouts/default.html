@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="{{ page.lang | default: site.lang | default: "en" }}">
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        {% include header.html %}
+
+        <main class="page-content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+
+        </main>
+
+        {% include footer.html %}
+    </body>
+</html>
