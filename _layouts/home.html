@@ -5,7 +5,7 @@ layout: default
 <div>
     {{ content }}
 
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
     <article>
         <h2>
@@ -20,4 +20,18 @@ layout: default
     {% endfor %}
 
     <p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+    <div>
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}">&#8810;</a>
+        {% else %}
+            <span>&#8810;</span>
+        {% endif %}
+        <span>{{ paginator.page }} de {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}">&#8811;</a>
+        {% else %}
+            <span>&#8811;</span>
+        {% endif %}
+    </div>
 </div>

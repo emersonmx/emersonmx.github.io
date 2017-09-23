@@ -2,38 +2,5 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
-home: true
+layout: home
 ---
-
-<div>
-    {% for post in paginator.posts %}
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-    <article>
-        <h2>
-            <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-            </a>
-        </h2>
-        <p><span>{{ post.date | date: date_format }}</span></p>
-        <p>{{ post.excerpt }}</p>
-        <p><a href="{{ post.url | relative_url }}">Leia mais</a></p>
-    </article>
-    {% endfor %}
-
-    <p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-    <div>
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}">&#8810;</a>
-        {% else %}
-            <span>&#8810;</span>
-        {% endif %}
-        <span>{{ paginator.page }} de {{ paginator.total_pages }}</span>
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">&#8811;</a>
-        {% else %}
-            <span>&#8811;</span>
-        {% endif %}
-    </div>
-</div>
