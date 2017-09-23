@@ -18,10 +18,13 @@ email: emersonmx@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Um simples diário de um programador
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.emersonmx.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+lang: 'pt-BR'
 social:
-  twitter: emersonmx
-  github: emersonmx
+  twitter:
+    username: emersonmx
+  github:
+    username: emersonmx
 google_analytics: UA-69408424-1
 
 permalink: /:categories/:title/
