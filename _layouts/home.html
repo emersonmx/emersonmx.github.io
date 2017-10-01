@@ -9,21 +9,27 @@ layout: default
         {% if forloop.first == false %}
             <hr>
         {% endif %}
-    <article>
+    <article itemscope itemtype="http://schema.org/BlogPosting">
         {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
         <header>
-            <h2 class="title">
+            <h2 class="title" itemprop="name headline">
                 <a href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
+                    {{ post.title | escape }}
                 </a>
             </h2>
         </header>
-        {{ post.excerpt }}
-        <p class="excerpt"><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+
+        <div itemprop="articleBody">
+            {{ post.excerpt }}
+            <p class="excerpt"><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+        </div>
+
         <footer>
-            <p class="">
+            <p>
                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                <span>{% include date-for-humans.html date=post.date %}</span>
+                <time datetime="post.date | date_to_xmlschema" itemprop="datePublished">
+                    {% include date-for-humans.html date=post.date %}
+                </time>
             </p>
         </footer>
     </article>

@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<article>
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
+<div class="container-fluid">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+        <header>
+            <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+        </header>
 
-  <div>
-    {{ content }}
-  </div>
-</article>
+        <div itemprop="articleBody">
+            {{ content }}
+        </div>
+    </article>
+</div>
