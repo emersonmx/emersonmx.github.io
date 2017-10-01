@@ -1,9 +1,14 @@
 ---
-title: Eventos da SFML
-date: 2017-01-01 00:00:00+00:00
-categories: sfml-series
-tags: cpp serie sfml
 layout: post
+category: blog
+title: Eventos da SFML
+date: {}
+categories: sfml-series
+tags:
+  - cpp
+  - serie
+  - sfml
+published: true
 ---
 
 E na São Falo Mashion Leek dessa semana... Não pera...\\
