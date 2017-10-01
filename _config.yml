@@ -72,11 +72,6 @@ prose:
           element: 'text'
           label: 'Título'
           value: ''
-      - name: 'splash'
-        field:
-          element: 'text'
-          label: 'Imagem de destaque'
-          value: ''
       - name: 'tags'
         field:
           element: 'multiselect'
@@ -107,6 +102,11 @@ prose:
               value: 'sfml'
             - name: 'Vim'
               value: 'vim'
+      - name: 'splash'
+        field:
+          element: 'text'
+          label: 'Imagem de destaque'
+          value: ''
     _posts/static:
       - name: 'layout'
         field:
