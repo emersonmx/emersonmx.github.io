@@ -65,6 +65,10 @@ main .paginator {
   text-align: center;
 }
 
+main .paginator .pagination {
+  margin: 0 0 9px;
+}
+
 article {
   word-break: break-word;
   overflow-wrap: break-word;

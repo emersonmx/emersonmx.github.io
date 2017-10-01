@@ -8,9 +8,9 @@ layout: default
             {{ content }}
 
             {% for post in paginator.posts %}
-                {% if forloop.first == false %}
+                {% unless forloop.first %}
                     <hr>
-                {% endif %}
+                {% endunless %}
             <article itemscope itemtype="http://schema.org/BlogPosting">
                 {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
                 <header>
@@ -40,6 +40,7 @@ layout: default
             {% endfor %}
 
             {% if paginator.total_pages > 1 %}
+                <hr>
                 <nav class="paginator">
                     <ul class="pagination">
                         {% if paginator.previous_page %}
