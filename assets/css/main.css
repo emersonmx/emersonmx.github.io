@@ -65,6 +65,11 @@ main .paginator {
   text-align: center;
 }
 
+article {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
 article img {
   display: block;
   max-width: 100%;

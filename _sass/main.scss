@@ -60,6 +60,8 @@ main {
 }
 
 article {
+    word-break: break-word;
+    overflow-wrap: break-word;
     img {
         display: block;
         max-width: 100%;
