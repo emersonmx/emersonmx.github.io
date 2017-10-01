@@ -44,11 +44,11 @@ prose:
   siteurl: 'http://www.emersonmx.com.br'
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   ignore:
-    - _data/
-    - _include/
-    - _layouts/
-    - _sass/
-    - _scripts/
+    - /_data
+    - /_include
+    - /_layouts
+    - /_sass
+    - /_scripts
   media: 'files'
 
 # Build settings
