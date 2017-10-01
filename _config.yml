@@ -43,7 +43,6 @@ excerpt_separator: '<!--more-->'
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.emersonmx.com.br/'
-  relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   media: 'files'
   metadata:
     _posts:
