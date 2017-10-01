@@ -17,8 +17,8 @@ title: Emerson MX
 email: emersonmx@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Um simples diário de um programador
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.emersonmx.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'http://www.emersonmx.com.br' # the base hostname & protocol for your site, e.g. http://example.com
 lang: pt-BR
 social:
   twitter:
@@ -38,6 +38,12 @@ paginate: 5
 paginate_path: "/page:num/"
 date_format: '%Y-%m-%d %H:%M'
 excerpt_separator: '<!--more-->'
+
+# Prose settings
+prose:
+  siteurl: 'http://www.emersonmx.com.br'
+  relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
+  media: 'files'
 
 # Build settings
 markdown: kramdown
