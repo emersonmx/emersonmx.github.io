@@ -45,7 +45,7 @@ prose:
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   media: 'files'
   ignore:
-    - '*'
+    - /*
     - !/_drafts
     - !/_posts
     - !/files
