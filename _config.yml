@@ -47,6 +47,15 @@ prose:
   media: 'files'
   metadata:
     _posts:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'post'
+      - name: 'title'
+        field:
+          element: 'text'
+          label: 'Título'
+          value: ''
       - name: 'category'
         field:
           element: 'select'
@@ -63,15 +72,6 @@ prose:
               value: 'rng'
             - name: 'SFML Series'
               value: 'sfml-series'
-      - name: 'layout'
-        field:
-          element: 'hidden'
-          value: 'post'
-      - name: 'title'
-        field:
-          element: 'text'
-          label: 'Título'
-          value: ''
       - name: 'tags'
         field:
           element: 'multiselect'

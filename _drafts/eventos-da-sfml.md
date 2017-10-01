@@ -1,9 +1,8 @@
 ---
 layout: post
-category: blog
 title: Eventos da SFML
 date: {}
-categories: sfml-series
+category: sfml-series
 tags:
   - cpp
   - serie
