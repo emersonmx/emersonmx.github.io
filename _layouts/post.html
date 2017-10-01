@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="container-fluid">
+<div class="post container-fluid">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <article itemscope itemtype="http://schema.org/BlogPosting">
@@ -19,12 +19,14 @@ layout: default
                 </div>
 
                 <footer>
-                    <p>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <time datetime="page.date | date_to_xmlschema" itemprop="datePublished">
-                            {% include date-for-humans.html date=page.date %}
-                        </time>
-                    </p>
+                    <div>
+                        <span>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <time datetime="page.date | date_to_xmlschema" itemprop="datePublished">
+                                {% include date-for-humans.html date=page.date %}
+                            </time>
+                        </span>
+                    </div>
                     {% if site.disqus.shortname %}
                         {% include disqus-comments.html %}
                     {% endif %}

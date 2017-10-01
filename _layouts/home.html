@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container-fluid">
+<div class="home container-fluid">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             {{ content }}
@@ -27,12 +27,14 @@ layout: default
                 </div>
 
                 <footer>
-                    <p>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <time datetime="post.date | date_to_xmlschema" itemprop="datePublished">
-                            {% include date-for-humans.html date=post.date %}
-                        </time>
-                    </p>
+                    <div>
+                        <span>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <time datetime="post.date | date_to_xmlschema" itemprop="datePublished">
+                                {% include date-for-humans.html date=post.date %}
+                            </time>
+                        </span>
+                    </div>
                 </footer>
             </article>
             {% endfor %}

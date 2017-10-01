@@ -53,6 +53,12 @@ header {
     }
 }
 
+main {
+    .paginator {
+        text-align: center;
+    }
+}
+
 article {
     img {
         display: block;
@@ -66,12 +72,6 @@ article {
     }
 }
 
-main {
-    .paginator {
-        text-align: center;
-    }
-}
-
 .footer {
     background-color: $navbar-default-bg;
     height: 83px;
@@ -81,5 +81,13 @@ main {
     border-top: 1px solid $navbar-default-border;
     p {
         margin: 0;
+    }
+}
+
+.post {
+    article {
+        footer {
+            margin: 30px auto;
+        }
     }
 }
