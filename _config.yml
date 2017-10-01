@@ -52,8 +52,6 @@ prose:
     - /_scripts
     - /files
     - /fonts
-    - !*.html
-    - !*.txt
   metadata:
     _posts:
       - name: 'layout'
