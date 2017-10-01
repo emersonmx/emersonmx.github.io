@@ -35,7 +35,7 @@ biblioteca. Esta série será mais séria (Saitama aprova).
 
 Então galere, deixemos de embromação e vamu começar essa baixaria :D
 
-<!-- more -->
+<!--more-->
 
 ## O que é a SFML?
 

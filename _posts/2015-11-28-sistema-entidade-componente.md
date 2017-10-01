@@ -14,7 +14,7 @@ _Unity3D_](http://unity3d.com/){:target="_blank"}), mas e se eu quiser
 implementar uma do zero?  Aaaahhh meu amiguinho, aí a merda corre solta. Sem
 mais muído, xêcomigo e ramu rê como que essa bagaça funciona :D
 
-<!-- more -->
+<!--more-->
 
 ## Conceito do Sistema de Entidades e Componentes
 

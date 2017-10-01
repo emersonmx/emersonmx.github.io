@@ -30,7 +30,7 @@ apruveitando a onda, vou falar também do _CMake_ que é algo bem interessante
 para quem quer construir projetos em C e C++ usando a [tela preta from
 hell](https://en.wikipedia.org/wiki/Terminal_emulator){:target="_blank"}.
 
-<!-- more -->
+<!--more-->
 
 ## Conheça o pedreiro, _CMake_ é o nome dele
 

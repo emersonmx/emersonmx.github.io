@@ -19,7 +19,7 @@ organizadas nessa <del>puteiro</del> série. O tutorial oficial é muito bom e 
 aconselho dá uma conferida mais tarde, mas por enquanto vamos continuar com o
 post :D
 
-<!-- more -->
+<!--more-->
 
 A SFML possui cinco módulos que podem ser usados para desenvolver uma
 aplicação, eles são: _System_, _Window_, _Graphics_, _Audio_ e _Network_. Como

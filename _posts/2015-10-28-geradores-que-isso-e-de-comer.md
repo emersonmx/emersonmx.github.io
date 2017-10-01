@@ -11,6 +11,8 @@ layout: post
 Eu pensei algo assim quando vi pela primeira vez. Tudo errado! O modo como ele
 funciona é meio diferente e totalmente WTF?! O,o
 
+<!--more-->
+
 Veja o seguinte código (funciona no _Python_ 2 e 3 :D)
 
 ```python

@@ -12,6 +12,8 @@ O clássico jogo da cobrinha escrito em Python 3 usando curses! SIM! Um jogo da
 cobrinha para a tela preta from hell! Pena que num tá completo... mas foda-se
 achei o código :D
 
+<!--more-->
+
 Apruveitei e coloquei o jogo em um [repositório do
 github](https://github.com/emersonmx/cobra-pycurses){:target="_blank"} para ter
 certeza que num vai pro saco de novo. Se quiser baixar para analisar o código

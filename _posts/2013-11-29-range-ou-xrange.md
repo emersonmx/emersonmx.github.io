@@ -12,6 +12,8 @@ movimentos!](http://www.catb.org/jargon/html/G/Guido.html){:target="_blank"}).
 Pois bem, faz um tempo que descobri a diferença entre eles, mas só agora
 entendi o verdadeiro poder por traz dessas funções.
 
+<!--more-->
+
 A explicação mais simples que posso dar de início é que o `range` cria uma
 lista e o `xrange` não. Deu pra sacar as maracutaia?
 

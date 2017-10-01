@@ -19,7 +19,7 @@ _Python_ é foda pra fazer coisas inúteis e por isso gosto de falar sobre ele :
 
 -- ...
 
-<!-- more -->
+<!--more-->
 
 ## A moda agora é usar um gerenciador de dependências!!!
 

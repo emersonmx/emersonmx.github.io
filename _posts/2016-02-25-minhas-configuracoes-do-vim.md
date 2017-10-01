@@ -20,6 +20,8 @@ que a galera da zuêra usa hoje em dia. Então... eh ._.
 
 Bem, vamos ao que interessa.
 
+<!--more-->
+
 Aqui está a [minha configuração do
 Vim](https://github.com/emersonmx/vimconfig){:target="_blank"}.
 

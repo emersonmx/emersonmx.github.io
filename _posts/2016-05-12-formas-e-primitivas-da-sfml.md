@@ -24,7 +24,7 @@ e definiu algumas propriedades da forma, é só chamar um
 -- Só pra mostrar que existe :D\\
 mas vamos falar de cada uma detalhadamente.
 
-<!-- more -->
+<!--more-->
 
 ## Círculo
 

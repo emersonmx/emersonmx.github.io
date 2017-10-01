@@ -17,6 +17,8 @@ caso você esteja usando o destrutor para liberar a memória, você terá memory
 leak pra todo lado. OBS.: as variáveis estáticas não sofrem com o problema do
 exit.
 
+<!--more-->
+
 Então, para você que é programador C e foi pro C++ (era melhor ter ficado no C
 mesmo .-.). Mais enfim, se você tem costume de usar a função exit para terminar
 o programa, troque por um return na função main para não acabar tendo bugs que

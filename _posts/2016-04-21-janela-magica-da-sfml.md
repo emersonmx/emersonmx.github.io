@@ -13,6 +13,8 @@ específico a classe
 _[RenderWindow](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1RenderWindow.php){:target="_blank"}_.
 Então, bora lá? :D
 
+<!--more-->
+
 [Vimos que o módulo
 _Window_]({{ site.baseurl }}{% post_url 2016-02-17-sfml-e-seus-modulos %}){:target="_blank"}
 define uma janela simples sem nenhuma firula que você pode usar para fazer seus

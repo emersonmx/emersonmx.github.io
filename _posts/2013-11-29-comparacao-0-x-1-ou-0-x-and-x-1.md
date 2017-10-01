@@ -12,6 +12,8 @@ intervalo entre 0 e 1 sem que cause um erro semântico? Não?! É rapaz, **Pytho
 é chei dar maracutaia!** ([Guido\'s time
 machine](http://www.catb.org/jargon/html/G/Guido.html){:target="_blank"}).
 
+<!--more-->
+
 **Mai puiquê num funfa nas ôta lingage?**
 
 Em C/C++ vai compilar, mas o resultado não será o esperado. Um exemplo: Dado
