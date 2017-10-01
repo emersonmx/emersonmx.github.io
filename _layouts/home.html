@@ -2,20 +2,30 @@
 layout: default
 ---
 
-<div>
+<div class="container-fluid">
     {{ content }}
 
     {% for post in paginator.posts %}
+        {% if forloop.first == false %}
+            <hr>
+        {% endif %}
     <article>
         {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-        <h2>
-            <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-            </a>
-        </h2>
-        <p><span>{{ post.date | date: date_format }}</span></p>
+        <header>
+            <h2 class="title">
+                <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+                </a>
+            </h2>
+        </header>
         {{ post.excerpt }}
-        <p><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+        <p class="excerpt"><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+        <footer>
+            <p class="">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <span>{% include date-for-humans.html date=post.date %}</span>
+            </p>
+        </footer>
     </article>
     {% endfor %}
 
