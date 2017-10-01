@@ -96,8 +96,6 @@ prose:
               value: 'rng'
             - name: 'Série'
               value: 'serie'
-            - name: 'Série'
-              value: 'serie'
             - name: 'SFML'
               value: 'sfml'
             - name: 'Vim'
