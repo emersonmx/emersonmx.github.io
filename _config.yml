@@ -35,7 +35,7 @@ defaults:
 
 permalink: /:categories/:title/
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: '/page:num/'
 date_format: '%Y-%m-%d %H:%M'
 excerpt_separator: '<!--more-->'
 
@@ -47,53 +47,69 @@ prose:
   media: 'files'
   metadata:
     _posts:
-      - name: "category"
+      - name: 'category'
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "layout"
+          element: 'hidden'
+          value: 'blog'
+      - name: 'layout'
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "title"
+          element: 'hidden'
+          value: 'blog'
+      - name: 'title'
         field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "splash"
+          element: 'text'
+          label: 'Title'
+          value: ''
+      - name: 'splash'
         field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-      - name: "tags"
+          element: 'text'
+          label: 'Splash image'
+          value: ''
+      - name: 'tags'
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          element: 'multiselect'
+          label: 'Adicionar Tags'
+          placeholder: 'Selecione as tags'
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+            - name: 'Box2D'
+              value: 'box2d'
+            - name: 'C'
+              value: 'c'
+            - name: 'CPP'
+              value: 'cpp'
+            - name: 'Curiosidades'
+              value: 'curiosidades'
+            - name: 'Dicas'
+              value: 'dicas'
+            - name: 'PHP'
+              value: 'php'
+            - name: 'Python'
+              value: 'python'
+            - name: 'RNG'
+              value: 'rng'
+            - name: 'Série'
+              value: 'serie'
+            - name: 'Série'
+              value: 'serie'
+            - name: 'SFML'
+              value: 'sfml'
+            - name: 'Vim'
+              value: 'vim'
     _posts/static:
-      - name: "layout"
+      - name: 'layout'
         field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
+          element: 'hidden'
+          value: 'page'
+      - name: 'title'
         field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "permalink"
+          element: 'text'
+          label: 'Title'
+          value: ''
+      - name: 'permalink'
         field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+          element: 'text'
+          label: 'Permalink'
+          value: ''
 
 # Build settings
 markdown: rdiscount
