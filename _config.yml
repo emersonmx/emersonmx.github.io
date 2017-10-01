@@ -41,7 +41,6 @@ excerpt_separator: '<!--more-->'
 
 # Prose settings
 prose:
-  rooturl: '_posts'
   siteurl: 'http://www.emersonmx.com.br/'
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   media: 'files'
