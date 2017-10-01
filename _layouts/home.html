@@ -3,77 +3,81 @@ layout: default
 ---
 
 <div class="container-fluid">
-    {{ content }}
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            {{ content }}
 
-    {% for post in paginator.posts %}
-        {% if forloop.first == false %}
-            <hr>
-        {% endif %}
-    <article itemscope itemtype="http://schema.org/BlogPosting">
-        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-        <header>
-            <h2 class="title" itemprop="name headline">
-                <a href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h2>
-        </header>
+            {% for post in paginator.posts %}
+                {% if forloop.first == false %}
+                    <hr>
+                {% endif %}
+            <article itemscope itemtype="http://schema.org/BlogPosting">
+                {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+                <header>
+                    <h2 class="h1 title" itemprop="name headline">
+                        <a href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}
+                        </a>
+                    </h2>
+                </header>
 
-        <div itemprop="articleBody">
-            {{ post.excerpt }}
-            <p class="excerpt"><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+                <div itemprop="articleBody">
+                    {{ post.excerpt }}
+                    <p class="excerpt"><a href="{{ post.url | relative_url }}">Leia mais</a></p>
+                </div>
+
+                <footer>
+                    <p>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <time datetime="post.date | date_to_xmlschema" itemprop="datePublished">
+                            {% include date-for-humans.html date=post.date %}
+                        </time>
+                    </p>
+                </footer>
+            </article>
+            {% endfor %}
+
+            {% if paginator.total_pages > 1 %}
+                <nav class="paginator">
+                    <ul class="pagination">
+                        {% if paginator.previous_page %}
+                            <li>
+                                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+                            </li>
+                        {% else %}
+                            <li class="disabled">
+                                <span>&laquo;</span>
+                            </li>
+                        {% endif %}
+
+                        {% for page in (1..paginator.total_pages) %}
+                            {% if page == paginator.page %}
+                                <li class="active"><span>{{ page }}</span></li>
+                            {% elsif page == 1 %}
+                                <li>
+                                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                                </li>
+                            {% else %}
+                                <li>
+                                    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+
+                        <li>
+                        {% if paginator.next_page %}
+                            <li>
+                                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+                            </li>
+                        {% else %}
+                            <li class="disabled">
+                                <span>&raquo;</span>
+                            </li>
+                        {% endif %}
+                        </li>
+                    </ul>
+                </nav>
+            {% endif %}
         </div>
-
-        <footer>
-            <p>
-                <i class="fa fa-calendar" aria-hidden="true"></i>
-                <time datetime="post.date | date_to_xmlschema" itemprop="datePublished">
-                    {% include date-for-humans.html date=post.date %}
-                </time>
-            </p>
-        </footer>
-    </article>
-    {% endfor %}
-
-    {% if paginator.total_pages > 1 %}
-        <nav class="paginator">
-            <ul class="pagination">
-                {% if paginator.previous_page %}
-                    <li>
-                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-                    </li>
-                {% else %}
-                    <li class="disabled">
-                        <span>&laquo;</span>
-                    </li>
-                {% endif %}
-
-                {% for page in (1..paginator.total_pages) %}
-                    {% if page == paginator.page %}
-                        <li class="active"><span>{{ page }}</span></li>
-                    {% elsif page == 1 %}
-                        <li>
-                            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-                        </li>
-                    {% else %}
-                        <li>
-                            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-
-                <li>
-                {% if paginator.next_page %}
-                    <li>
-                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-                    </li>
-                {% else %}
-                    <li class="disabled">
-                        <span>&raquo;</span>
-                    </li>
-                {% endif %}
-                </li>
-            </ul>
-        </nav>
-    {% endif %}
+    </div>
 </div>
