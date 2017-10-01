@@ -1,0 +1,57 @@
+.title a,
+.title a:link,
+.title a:visited,
+.title a:hover {
+  color: #323232;
+}
+
+header {
+  color: #323232;
+}
+
+header .navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid #e6e5e5;
+}
+
+header .navbar a,
+header .navbar a:link,
+header .navbar a:visited,
+header .navbar a:hover {
+  text-decoration: none;
+}
+
+header .navbar .navbar-header {
+  line-height: 1em;
+}
+
+header .navbar .navbar-brand {
+  margin: 0 auto;
+  height: 7%;
+}
+
+header .navbar .navbar-toggle {
+  margin: 5px 10px 5px auto;
+  font-size: 2rem;
+}
+
+header .navbar .navbar-collapse {
+  border-top: 1px solid #e6e5e5;
+}
+
+header .navbar .title {
+  font-size: 2rem;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+article .excerpt {
+  padding: 5px 0;
+  text-align: right;
+}
+
