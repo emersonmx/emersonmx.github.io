@@ -8,7 +8,7 @@ layout: post
 
 E no post de hoje será mostrada uma visão geral dos módulos da SFML. A qual foi
 baseada sem dó nem piedade no [tutorial
-oficial](http://www.sfml-dev.org/tutorials/2.3/){:target="_blank"} :P
+oficial](http://www.sfml-dev.org/tutorials/2.3/) :P
 
 -- Oxi! E porque motivo, razão ou circunstância você resolveu falar dos módulos
 se já tem no tutorial? O,o
@@ -50,7 +50,7 @@ praquê linkar todos?
 ... -.-\\
 Certo, o único problema que você vai ter é saber _quem depende de quem_.\\
 E como eu sei que se você é um minino dedicado, já deve ter lido o [FAQ da
-SFML](http://www.sfml-dev.org/faq.php#build-link){:target="_blank"} e sabe que
+SFML](http://www.sfml-dev.org/faq.php#build-link) e sabe que
 _Window_, _Audio_ e _Network_ dependem do _System_ e o _Graphics_ depende do
 _Window_ e do _System_. Isso tudo numa jogada de cabelo, sem piscar os zói e
 fazendo ioga enquanto chupa manga.
@@ -67,7 +67,7 @@ Os módulos que tem mais dependências devem vir antes dos que tem menos. Exempl
 1: _Graphics (2)_, _Window (1)_ e _System (0)_.\\
 Exemplo 2: _Window (1)_, _Audio (1)_, _System (0)_.
 E sim! Isso é uma coisa que é falada no [FAQ
-marôto](http://www.sfml-dev.org/faq.php#build-link){:target="_blank"}.
+marôto](http://www.sfml-dev.org/faq.php#build-link).
 
 Agora que sabemos o básico do básico sobre os módulos, vamos estripar cada um
 pra ver o que tem por dentro :D
@@ -90,7 +90,7 @@ _Eu não posso deixar de notar que a parte dos Dreds
 ![Dreds]({{ site.baseurl }}{% link /files/2016/02/talk-like-a-pirate-day-jack-sparrow.jpg %})
 
 é meio inútil no C++11 (ver [tutorial da
-SFML](http://www.sfml-dev.org/tutorials/2.3/system-thread.php#sfml-threads-or-stdthread){:target="_blank"}).
+SFML](http://www.sfml-dev.org/tutorials/2.3/system-thread.php#sfml-threads-or-stdthread)).
 Então abiguinhos, caso esteja usando C++11, ignore o fato que a SFML tem uma
 implementação de _Threads_. Outra coisa que é meio raro de usar são os
 _Streams_ de dados. Eu ainda não fiz nada exótico com isso na SFML, então acho
@@ -108,7 +108,7 @@ Ahh o módulo _Window_. Ao meu ver, o módulo **MAIS IMPORTANTE** da SFML. Ele
 pode se resumir a isso aqui.
 
 ![Tela em branco na
-SFML]({{ site.baseurl }}{% link /files/2016/02/blank_window.png %}){:target="_blank"}
+SFML]({{ site.baseurl }}{% link /files/2016/02/blank_window.png %})
 
 Uma tela preta from hell! @>@
 
@@ -198,9 +198,9 @@ deixar para mostrar o que dá pra fazer com ele em um post futuro.
 -- Óia, que resumo merda ._.
 
 Claro né, é um resumo do que tem no [tutorial do site oficial da
-SFML](http://www.sfml-dev.org/tutorials/2.3/){:target="_blank"}. Quando tiver
+SFML](http://www.sfml-dev.org/tutorials/2.3/). Quando tiver
 um tempinho passar lá e também no
-[Wiki](https://github.com/SFML/SFML/wiki){:target="_blank"} que tem muita coisa
+[Wiki](https://github.com/SFML/SFML/wiki) que tem muita coisa
 interessante que não falei aqui. E pra acabar, deixo os ensinamentos para os
 abiguinhos.
 

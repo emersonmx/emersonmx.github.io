@@ -11,7 +11,7 @@ Esses dias eu tava programando em PHP no meu bom e velho Vim e resolvi fazer\\
 algo que sempre tive priguiça. Adicionar a opção de abrir código da tag.
 
 O [plugin de
-auto-completar](https://github.com/Valloric/YouCompleteMe){:target="_blank"}
+auto-completar](https://github.com/Valloric/YouCompleteMe)
 que eu uso tem suporte pra um bucado de linguagem. O problema é que ele não
 abre a documentação, em algumas linguagem, quando você dá `Ctrl-Clique`,
 `Ctrl-]`, `g]`, etc.
@@ -24,7 +24,7 @@ Para resolver isso é preciso criar um arquivo de tags a partir de algum código
 Para resolver isso eu peguei os stubs do PHP que vem junto com o feijão de rede
 (Netbeans) e joguei num repositório maroto. Se quiser usar, você pode clona meu
 repositório de [Stubs do
-PHP](https://github.com/emersonmx/phpstubs){:target="_blank"} e ser feliz... Se
+PHP](https://github.com/emersonmx/phpstubs) e ser feliz... Se
 puder :b
 
 Observassaum\\

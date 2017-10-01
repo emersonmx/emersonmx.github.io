@@ -24,7 +24,7 @@ for i in range(10):
 ```
 
 Se você viu o [artigo sobre a diferença entre o range e
-xrange]({{ site.baseurl }}{% post_url 2013-11-29-range-ou-xrange %}){:target="_blank"}.
+xrange]({{ site.baseurl }}{% post_url 2013-11-29-range-ou-xrange %}).
 Já deve manjar um pouco dos paranauê. No _Python_ 2 há essas duas funções, já
 no _Python_ 3 o `xrange` foi renomeado para `range` e retorna o que ele sempre
 retornou, um gerador!
@@ -117,4 +117,4 @@ E o que podemos aprender com isso abiguinhos?
 É, chega por hoje, falow valeu :D
 
 ## Referência
-1. [https://wiki.python.org/moin/Generators](https://wiki.python.org/moin/Generators){:target="_blank"}
+1. [https://wiki.python.org/moin/Generators](https://wiki.python.org/moin/Generators)

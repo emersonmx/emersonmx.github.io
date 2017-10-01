@@ -10,7 +10,7 @@ Você sabia que em Python você pode fazer uma comparação usando esta forma `(
 <= x <= 1.0)`, que é muito usada na matemática, para saber se um valor está no
 intervalo entre 0 e 1 sem que cause um erro semântico? Não?! É rapaz, **Python
 é chei dar maracutaia!** ([Guido\'s time
-machine](http://www.catb.org/jargon/html/G/Guido.html){:target="_blank"}).
+machine](http://www.catb.org/jargon/html/G/Guido.html)).
 
 <!--more-->
 

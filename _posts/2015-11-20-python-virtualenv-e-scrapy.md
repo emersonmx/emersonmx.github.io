@@ -25,7 +25,7 @@ _Python_ é foda pra fazer coisas inúteis e por isso gosto de falar sobre ele :
 
 Assim como toda linguagem da modinha de hoje em dia, Pitão também tem o seu
 troço que gerencia as dependências dos projetos. E o nome desse troço é
-[pip](https://pypi.python.org/pypi/pip){:target="_blank"}.
+[pip](https://pypi.python.org/pypi/pip).
 
 -- Oxi e o qui djabo isso tem a vê?
 
@@ -40,7 +40,7 @@ versões diferentes das dependência. Aí meu jovi o pip dexa você na mão.
 -- Issé uma merda :< E agora quem rái me defender?
 
 -- EU! O
-_[Virtualenv](https://virtualenv.readthedocs.org/en/latest/){:target="_blank"}_!
+_[Virtualenv](https://virtualenv.readthedocs.org/en/latest/)_!
 :D
 
 -- E o que C pode fazer pureu?
@@ -79,7 +79,7 @@ Saca azidea
 As vezes você tá passeando pelas interwebis e se acha no meio de uma
 tarefa repetitiva. Você para e pensa: "carai, se eu soubesse fazer alguma
 gambiarra que pegasse esse conteúdo do site e fizesse isso...". Isso meus
-abiguinhos é o que o _[Scrapy](http://scrapy.org/){:target="_blank"}_ faz :D
+abiguinhos é o que o _[Scrapy](http://scrapy.org/)_ faz :D
 
 -- Éé... e?
 
@@ -122,7 +122,7 @@ para disseminar o conhecimento e depois disso sumiu. Segue o link do
 xxxcrawler.
 
 [Código de
-Fabianilson](https://github.com/emersonmx/blog_code/tree/master/python/xxxcrawler){:target="_blank"}
+Fabianilson](https://github.com/emersonmx/blog_code/tree/master/python/xxxcrawler)
 
 ## 3C
 

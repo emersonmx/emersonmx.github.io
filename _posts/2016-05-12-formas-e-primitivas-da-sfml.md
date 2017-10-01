@@ -7,14 +7,14 @@ layout: post
 ---
 
 Yaê cambada de doido! Tudo de boina? Depois do [post do milênio
-passado]({{ site.baseurl }}{% post_url 2016-04-21-janela-magica-da-sfml %}){:target="_blank"} você
+passado]({{ site.baseurl }}{% post_url 2016-04-21-janela-magica-da-sfml %}) você
 deve tá se perguntando como usar a janela mágica. Portanto,  neste post vamos
 dar utilidade a essa janela ao usar as formas e primitivas da SFML.
 
 A SFML disponibiliza a implementação de círculis, cadadis, formis convexis,
 linhis e pontis. E caso precise de algo mais milaborante você pode estender a
 classe
-[`sf::Shape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Shape.php){:target="_blank"}.
+[`sf::Shape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Shape.php).
 Na prática não tem muito o que aprender desses troço não. Depois que você criou
 e definiu algumas propriedades da forma, é só chamar um
 `window.draw(minhaFormaMarota)` e crew.
@@ -29,7 +29,7 @@ mas vamos falar de cada uma detalhadamente.
 ## Círculo
 
 Para desenhar essa forma você vai criar um objeto da class
-[`sf::CircleShape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1CircleShape.php){:target="_blank"}.
+[`sf::CircleShape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1CircleShape.php).
 e definir os atributos de raio, cor da linha/fundo, textura, posição, rotação,
 etc. Definiu o que quer? Agora é só dá um `window.draw(circulo)`, difícil né?
 
@@ -48,7 +48,7 @@ vire um círculo :D
 ## Retângulo
 
 A classe
-[`sf::RectangleShape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1RectangleShape.php){:target="_blank"}
+[`sf::RectangleShape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1RectangleShape.php)
 tem todos os métodos de afrescalhamento e transformação da classe de círculo.
 Logo, você pode mudar a cor da linha e do preenchimento, colocar uma textura
 gay, posicionar o bixo na puta que pariu, esticar feito espaguete e por aí vai.
@@ -57,9 +57,9 @@ Criou o objeto e definiu os atributos? passa pro `window.draw()`.
 ## Forma convexa
 
 O que seria esse troço? [Veja a classificação e a imagem no artigo da
-wikipédia](https://pt.wikipedia.org/wiki/Pol%C3%ADgono#Classifica.C3.A7.C3.A3o_2){:target="_blank"}.\\
+wikipédia](https://pt.wikipedia.org/wiki/Pol%C3%ADgono#Classifica.C3.A7.C3.A3o_2).\\
 Se entendeu do que se trata, nem tente desenhar uma forma concava com a
-classe `[sf::ConvexShape](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1ConvexShape.php){:target="_blank"}`.
+classe `[sf::ConvexShape](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1ConvexShape.php)`.
 Se você quiser desenhar uma forma côncava, você terá que quebrá-las em formas
 convexas. Essa classe é praticamente uma círculo sem o raio. Assim como as
 outras formas, você pode definir as viadagens e as transformações e depois
@@ -68,9 +68,9 @@ passar pra janela mágica.
 ## Linha
 
 A linha nada mais é do que um par de pontos. Elas são desenhadas passando um
-[sf::VertexArray](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1VertexArray.php){:target="_blank"}
+[sf::VertexArray](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1VertexArray.php)
 ou
-[sf::Vertex](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Vertex.php){:target="_blank"}[]
+[sf::Vertex](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Vertex.php)[]
 para a janela mágica. Pro primeiro o desenho é um
 simples `window.draw(meuVertexArray)`, já o segundo você
 usa `window.draw(linha, 2, sf::Lines)`. É praticamente a mesma coisa, só muda o

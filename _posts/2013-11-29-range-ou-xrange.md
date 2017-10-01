@@ -8,7 +8,7 @@ layout: post
 
 Python é uma caixinha de surpresas. De vez em sempre aparece algo que você quer
 fazer e descobre que já existe ([maldito, mal posso ver seus
-movimentos!](http://www.catb.org/jargon/html/G/Guido.html){:target="_blank"}).
+movimentos!](http://www.catb.org/jargon/html/G/Guido.html)).
 Pois bem, faz um tempo que descobri a diferença entre eles, mas só agora
 entendi o verdadeiro poder por traz dessas funções.
 

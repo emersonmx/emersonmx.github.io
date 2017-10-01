@@ -10,7 +10,7 @@ Entidades/Componentes (SEC<del>su</del>). Quando eu comecei a estudar esse
 troço a galera só falava "Sistemas de componentes é  foda. Arquitetura
 hierárquica é uma merda/bixada/um lixo/algo pôdi" ou algo do tipo :P\\
 Eu não nego que a arquitetura é foda e muito simples de usar ([veja o
-_Unity3D_](http://unity3d.com/){:target="_blank"}), mas e se eu quiser
+_Unity3D_](http://unity3d.com/)), mas e se eu quiser
 implementar uma do zero?  Aaaahhh meu amiguinho, aí a merda corre solta. Sem
 mais muído, xêcomigo e ramu rê como que essa bagaça funciona :D
 
@@ -28,7 +28,7 @@ informação para os Sistemas, isto é, eles são apenas DADOS!
 Eu não tô com muito saco para explicar as nóia do balançar do rabo cromado do
 gato preto. Por enquanto saiba que tudo se resume a código flexível. Se quiser
 mais detalhes [veja a apresentação de Scott
-Bilas](http://gamedevs.org/files/data-driven-game-object-system.pdf){:target="_blank"}.
+Bilas](http://gamedevs.org/files/data-driven-game-object-system.pdf).
 
 -- Sim… código flexível… tipo o balançar do rabo de um gato… sei tendi tutô ._.
 
@@ -51,7 +51,7 @@ pior. Exemplo: Quando você vai dormir e só tem um lençol pequeno pra se inrol
 Você percebe que ao cobrir a cabeça você descobre os pês. Se cobre os pês
 descobre a cabeça. E se deixar o lençol no buxo fica com frio nos dois. No
 palavriado dos Animés seria a [Lei da troca
-equivalente](http://pt-br.fma.wikia.com/wiki/Troca_Equivalente){:target="_blank"}.
+equivalente](http://pt-br.fma.wikia.com/wiki/Troca_Equivalente).
 
 -- Ahn? mai num fica mais fácil pra fazer o joguim?
 
@@ -108,7 +108,7 @@ tabela de um banco. E isso não poderia está mais certo, caso você fosse
 implementar um MMORPG :D
 
 -- Vixi o,o E como eu faço pra pegar os Componentes das Entidades? Implemento
-um [CRUD](https://pt.wikipedia.org/wiki/CRUD){:target="_blank"}?
+um [CRUD](https://pt.wikipedia.org/wiki/CRUD)?
 
 Isso mesmo! um CRUD ou no caso do SEC um _EntityManager_. Assim, pode-se
 implementar um _EntityManager_ com os métodos para Criar (Create), Lê (Read)
@@ -192,21 +192,21 @@ fazer as coisas. Com isso aprendemos que:
   * O SEC é muito simples de usar, pena que não dá pra dizer o mesmo quando se
     implementa do zero;
   * [Keep It Simple Stupid
-    (KISS)](https://en.wikipedia.org/wiki/KISS_principle){:target="_blank"};
+    (KISS)](https://en.wikipedia.org/wiki/KISS_principle);
   * _Unity3D_ é foda;
   * Implementar um SEC vai te fazer um mestre capoeira.
 
 ## Fontes e materiais
-  * [Wiki sobre SEC](http://entity-systems.wikidot.com/){:target="_blank"}
+  * [Wiki sobre SEC](http://entity-systems.wikidot.com/)
   * [Entity Systems are the future of MMOG
-    development](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/){:target="_blank"}
+    development](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/)
   * [Aprensetação de Scott
-  Bilas](http://gamedevs.org/files/data-driven-game-object-system.pdf){:target="_blank"}
+  Bilas](http://gamedevs.org/files/data-driven-game-object-system.pdf)
   * [Evolve Your
-    Hierarchy](http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/){:target="_blank"}
+    Hierarchy](http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/)
   * [Um ótimo exemplo de implementação de SEC em
-    Ruby](https://cbpowell.wordpress.com/2012/10/30/entity-component-game-programming-using-jruby-and-libgdx-part-1/){:target="_blank"}
+    Ruby](https://cbpowell.wordpress.com/2012/10/30/entity-component-game-programming-using-jruby-and-libgdx-part-1/)
   * [Padrões de projetos para
-    jogos](http://gameprogrammingpatterns.com/){:target="_blank"}
+    jogos](http://gameprogrammingpatterns.com/)
 
 

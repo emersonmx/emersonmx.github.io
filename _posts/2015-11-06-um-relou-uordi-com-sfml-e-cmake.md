@@ -28,7 +28,7 @@ tudo que vê pela frente. Assim, para não fugir desse ritual
 <del>satânico</del>, vou mostrar como seria um troço desse com SFML. E
 apruveitando a onda, vou falar também do _CMake_ que é algo bem interessante
 para quem quer construir projetos em C e C++ usando a [tela preta from
-hell](https://en.wikipedia.org/wiki/Terminal_emulator){:target="_blank"}.
+hell](https://en.wikipedia.org/wiki/Terminal_emulator).
 
 <!--more-->
 
@@ -57,7 +57,7 @@ criando uma ferramenta GNU, logo usar _Autotools_ é totalmente sem sentido.
 
 Continuando...\\
 Tudo o que você precisa é [baixar o _CMake_ no site
-official](https://cmake.org/download/){:target="_blank"} e instalar. Com isso,
+official](https://cmake.org/download/) e instalar. Com isso,
 você vai ter acesso a versão para linha de comando, tsk, e a lindíssima
 interface gráfica que já vem embutidaaaa maôôôôôeeee. Agora só falta você
 aprender a sintaxe da linguagem do _CMake_ e criar o arquivo `CMakeLists.txt`
@@ -131,13 +131,13 @@ executável com o mesmo nome do projeto que você definiu.
 bibroteca do SFML não.**
 
 Se sua versão do _CMake_ for a 2 você vai ter que colocar o
-[FindSFML.cmake](https://raw.githubusercontent.com/SFML/SFML/master/cmake/Modules/FindSFML.cmake){:target="_blank"}
+[FindSFML.cmake](https://raw.githubusercontent.com/SFML/SFML/master/cmake/Modules/FindSFML.cmake)
 na pasta `cmake_modules`. Na versão 3 já vem embutido :D
 
 Quando tiver um tempo veja o [tutorial do
-_CMake_](https://cmake.org/cmake-tutorial/){:target="_blank"} e caso haja
+_CMake_](https://cmake.org/cmake-tutorial/) e caso haja
 dúvidas veja o [wiki do
-projeto](https://cmake.org/Wiki/CMake){:target="_blank"}.
+projeto](https://cmake.org/Wiki/CMake).
 
 ## O material de construção, a bibroteca SFML
 
@@ -167,9 +167,9 @@ Ah, vamo deixar de fuzuê e mostrar o que interessa, o Relou Uôrdi.
 
 O _Hello World_ é bem simples, ele cria uma janela e mostrar uma imagem com o
 texto "Relou Uôrdi". Veja [o código belo como o círculo polar
-ártico](https://github.com/emersonmx/blog_code/tree/master/cpp/sfml/hello_sfml_cmake){:target="_blank"}
+ártico](https://github.com/emersonmx/blog_code/tree/master/cpp/sfml/hello_sfml_cmake)
 ([referência
-marota](https://www.youtube.com/watch?v=BRQ--tM88qU&feature=youtu.be&t=9m22s){:target="_blank"})
+marota](https://www.youtube.com/watch?v=BRQ--tM88qU&feature=youtu.be&t=9m22s))
 e tire suas conclusões quanto a SFML. Segue imagem do resultado final.
 
 ![relou_uordi]({{ site.baseurl }}{% link /files/2015/11/relou_uordi.png %})

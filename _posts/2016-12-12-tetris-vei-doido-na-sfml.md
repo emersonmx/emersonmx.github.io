@@ -13,8 +13,8 @@ Resolvi terminar de qualquer forma pra começar a fazer outras coisas.
 Segue o link pra download :D
 
 [Baixar Tetris lixo feito com
-SFML](https://github.com/emersonmx/tetris-sfml/releases/download/v1.0/Tetris-1.0.zip){:target="_blank"}
+SFML](https://github.com/emersonmx/tetris-sfml/releases/download/v1.0/Tetris-1.0.zip)
 
 Segue repositório do projeto xD
 
-[Github](https://github.com/emersonmx/tetris-sfml){:target="_blank"}
+[Github](https://github.com/emersonmx/tetris-sfml)

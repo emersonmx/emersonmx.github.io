@@ -23,56 +23,56 @@ Bem, vamos ao que interessa.
 <!--more-->
 
 Aqui está a [minha configuração do
-Vim](https://github.com/emersonmx/vimconfig){:target="_blank"}.
+Vim](https://github.com/emersonmx/vimconfig).
 
 E o mais importante dele são os plugins :D\\
 Veja abaixo a lista dos que eu tô/tava usando quando escrevi este post :b
 
-  * [neobundle ](https://github.com/Shougo/neobundle.vim){:target="_blank"}
+  * [neobundle ](https://github.com/Shougo/neobundle.vim)
     Gerenciador de plugins
-  * [vimx](https://github.com/emersonmx/vimx){:target="_blank"}
+  * [vimx](https://github.com/emersonmx/vimx)
     Meus plugins e alguns snippets
-  * [easymotion](https://github.com/Lokaltog/vim-easymotion){:target="_blank"}
+  * [easymotion](https://github.com/Lokaltog/vim-easymotion)
     Vá para qualquer lugar do arquivo com poucas teclas
-  * [delimitMate ](https://github.com/Raimondi/delimitMate){:target="_blank"}
+  * [delimitMate ](https://github.com/Raimondi/delimitMate)
     Auto fecha \'\"\(\[\{
-  * [vim-indent-object ](https://github.com/michaeljsmith/vim-indent-object){:target="_blank"}
+  * [vim-indent-object ](https://github.com/michaeljsmith/vim-indent-object)
     Objetos do vim que considera indentação
-  * [nerdcommenter ](https://github.com/scrooloose/nerdcommenter){:target="_blank"}
+  * [nerdcommenter ](https://github.com/scrooloose/nerdcommenter)
     Comentador de código
-  * [vim-repeat ](https://github.com/tpope/vim-repeat){:target="_blank"}
+  * [vim-repeat ](https://github.com/tpope/vim-repeat)
     Tunado do comando . (repetir última ação)
-  * [vim-surround ](https://github.com/tpope/vim-surround){:target="_blank"}
+  * [vim-surround ](https://github.com/tpope/vim-surround)
     Alguns paranauê para enrolar um pedaço de texto com \(, \[, \{, etc.
-  * [ctrlp ](https://github.com/ctrlpvim/ctrlp.vim){:target="_blank"}
+  * [ctrlp ](https://github.com/ctrlpvim/ctrlp.vim)
     Abra arquivos usando fuzzy search
-  * [vim-fugitive ](https://github.com/tpope/vim-fugitive){:target="_blank"}
+  * [vim-fugitive ](https://github.com/tpope/vim-fugitive)
     Git para vim
-  * [vim-unimpaired ](https://github.com/tpope/vim-unimpaired){:target="_blank"}
+  * [vim-unimpaired ](https://github.com/tpope/vim-unimpaired)
     Algumas funções úteis que usam \[\] como atalho
-  * [ultisnips ](https://github.com/SirVer/ultisnips){:target="_blank"}
+  * [ultisnips ](https://github.com/SirVer/ultisnips)
     Snippets, snippets everywhere
-  * [vim-snippets ](https://github.com/honza/vim-snippets){:target="_blank"}
+  * [vim-snippets ](https://github.com/honza/vim-snippets)
     Mais snippets
-  * [vim-polyglot](https://github.com/sheerun/vim-polyglot){:target="_blank"}
+  * [vim-polyglot](https://github.com/sheerun/vim-polyglot)
     Pacote de estilos de linguagens
-  * [nerdtree ](https://github.com/scrooloose/nerdtree){:target="_blank"}
+  * [nerdtree ](https://github.com/scrooloose/nerdtree)
     Explorador de arquivos
-  * [HTML-AutoCloseTag ](https://github.com/vim-scripts/HTML-AutoCloseTag){:target="_blank"}
+  * [HTML-AutoCloseTag ](https://github.com/vim-scripts/HTML-AutoCloseTag)
     O nome já diz ._.
-  * [vim-css3-syntax ](https://github.com/hail2u/vim-css3-syntax){:target="_blank"}
+  * [vim-css3-syntax ](https://github.com/hail2u/vim-css3-syntax)
     Suporte para CSS3
-  * [YouCompleteMe ](https://github.com/Valloric/YouCompleteMe){:target="_blank"}
+  * [YouCompleteMe ](https://github.com/Valloric/YouCompleteMe)
     Auto completador de código foda pá carai!
-  * [vim-fswitch ](https://github.com/derekwyatt/vim-fswitch){:target="_blank"}
+  * [vim-fswitch ](https://github.com/derekwyatt/vim-fswitch)
     Troca entre cabeçalho e implementação (C++)
-  * [tagbar ](https://github.com/majutsushi/tagbar){:target="_blank"}
+  * [tagbar ](https://github.com/majutsushi/tagbar)
     Navegador de tags
-  * [php.vim ](https://github.com/StanAngeloff/php.vim){:target="_blank"}
+  * [php.vim ](https://github.com/StanAngeloff/php.vim)
     Atualização da syntax do PHP
-  * [YCM-Generator ](https://github.com/rdnetto/YCM-Generator){:target="_blank"}
+  * [YCM-Generator ](https://github.com/rdnetto/YCM-Generator)
     Gerador de configuração para o YouCompleteMe
-  * [vdebug ](https://github.com/joonty/vdebug){:target="_blank"}
+  * [vdebug ](https://github.com/joonty/vdebug)
     Debugador para um bucado de linguagem
 
 Por hoje é só, té mais pessuar Yo/
