@@ -59,3 +59,12 @@ main .paginator {
   text-align: center;
 }
 
+body > footer {
+  padding: 30px 0;
+  border-top: 1px solid #e6e5e5;
+}
+
+body > footer p {
+  margin: 0;
+}
+
