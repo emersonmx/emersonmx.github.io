@@ -50,8 +50,6 @@ prose:
     - /_layouts
     - /_sass
     - /_scripts
-    - /files
-    - /fonts
   metadata:
     _posts:
       - name: 'layout'
