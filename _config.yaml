@@ -41,18 +41,13 @@ excerpt_separator: '<!--more-->'
 
 # Prose settings
 prose:
-  siteurl: 'http://www.emersonmx.com.br'
+  rooturl: '_posts'
+  siteurl: 'http://www.emersonmx.com.br/'
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
-  ignore:
-    - /_data
-    - /_include
-    - /_layouts
-    - /_sass
-    - /_scripts
   media: 'files'
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
 plugins:
   - jekyll-feed
   - jekyll-paginage
