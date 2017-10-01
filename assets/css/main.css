@@ -55,3 +55,7 @@ article .excerpt {
   text-align: right;
 }
 
+main .paginator {
+  text-align: center;
+}
+

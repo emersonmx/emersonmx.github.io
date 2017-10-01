@@ -29,19 +29,45 @@ layout: default
     </article>
     {% endfor %}
 
-    <p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {% if paginator.total_pages > 1 %}
+        <nav class="paginator">
+            <ul class="pagination">
+                {% if paginator.previous_page %}
+                    <li>
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+                    </li>
+                {% else %}
+                    <li class="disabled">
+                        <span>&laquo;</span>
+                    </li>
+                {% endif %}
 
-    <div>
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}">&#8810;</a>
-        {% else %}
-            <span>&#8810;</span>
-        {% endif %}
-        <span>{{ paginator.page }} de {{ paginator.total_pages }}</span>
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">&#8811;</a>
-        {% else %}
-            <span>&#8811;</span>
-        {% endif %}
-    </div>
+                {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                        <li class="active"><span>{{ page }}</span></li>
+                    {% elsif page == 1 %}
+                        <li>
+                            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                        </li>
+                    {% else %}
+                        <li>
+                            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+
+                <li>
+                {% if paginator.next_page %}
+                    <li>
+                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+                    </li>
+                {% else %}
+                    <li class="disabled">
+                        <span>&raquo;</span>
+                    </li>
+                {% endif %}
+                </li>
+            </ul>
+        </nav>
+    {% endif %}
 </div>
