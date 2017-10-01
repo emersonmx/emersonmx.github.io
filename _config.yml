@@ -45,12 +45,11 @@ prose:
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   media: 'files'
   ignore:
-    - /_data
-    - /_includes
-    - /_layouts
-    - /_sass
-    - /_scripts
-    - /fonts
+    - '*'
+    - !/_drafts
+    - !/_posts
+    - !/files
+    - !/*.html
   metadata:
     _posts:
       - name: 'layout'
