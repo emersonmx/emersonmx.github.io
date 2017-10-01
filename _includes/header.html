@@ -14,9 +14,11 @@
                     </a>
                 </h1>
                 {% else %}
-                <a href="{{ "/" | relative_url }}" class="navbar-brand title">
-                    {{ site.title | escape }}
-                </a>
+                <div class="navbar-brand title">
+                    <a href="{{ "/" | relative_url }}">
+                        {{ site.title | escape }}
+                    </a>
+                </div>
                 {% endif %}
             </div>
 
