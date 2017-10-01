@@ -49,26 +49,38 @@ prose:
     _posts:
       - name: 'category'
         field:
-          element: 'hidden'
-          value: 'blog'
+          element: 'select'
+          label: 'Categoria'
+          placeholder: 'Seleciona a categoria'
+          options:
+            - name: 'Engenharia de Software'
+              value: 'engenharia-de-software'
+            - name: 'Programação'
+              value: 'programacao'
+            - name: 'Projetos'
+              value: 'projetos'
+            - name: 'RNG'
+              value: 'rng'
+            - name: 'SFML Series'
+              value: 'sfml-series'
       - name: 'layout'
         field:
           element: 'hidden'
-          value: 'blog'
+          value: 'post'
       - name: 'title'
         field:
           element: 'text'
-          label: 'Title'
+          label: 'Título'
           value: ''
       - name: 'splash'
         field:
           element: 'text'
-          label: 'Splash image'
+          label: 'Imagem de destaque'
           value: ''
       - name: 'tags'
         field:
           element: 'multiselect'
-          label: 'Adicionar Tags'
+          label: 'Tags'
           placeholder: 'Selecione as tags'
           options:
             - name: 'Box2D'
