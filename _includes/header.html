@@ -23,7 +23,7 @@
             </div>
 
             {% if page_paths %}
-            <div id="navbar-menu" class="collapse navbar-collapse">
+            <div id="navbar-menu" class="collapse navbar-collapse pull-right">
                 <ul class="nav navbar-nav">
                 {% for path in page_paths %}
                     {% assign my_page = site.pages | where: "path", path | first %}
