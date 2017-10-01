@@ -27,6 +27,12 @@ social:
     username: emersonmx
 google_analytics: UA-69408424-1
 
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: /assets/img/facebook.png
+
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
