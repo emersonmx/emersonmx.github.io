@@ -28,7 +28,6 @@ header {
     color: $text-color;
     .navbar {
         margin-bottom: 0;
-        border-bottom: 1px solid $navbar-default-border;
         a {
             &,&:link,&:visited,&:hover {
                 text-decoration: none;
@@ -49,9 +48,6 @@ header {
             &:hover, &:focus {
                 background-color: inherit;
             }
-        }
-        .navbar-collapse {
-            border-top: 1px solid $navbar-default-border;
         }
         .title {
             font-size: 2rem;
@@ -105,7 +101,7 @@ article {
 
 @media (max-width: $screen-xs-max) {
     header .navbar {
-        h1.navbar-brand {
+        .navbar-brand.title {
             padding-left: 0;
             padding-right: 0;
         }
