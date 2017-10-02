@@ -51,6 +51,8 @@ prose:
     - /_sass
     - /_scripts
     - /.gitignore
+    - /CNAME
+    - /Gemfile*
   metadata:
     _posts:
       - name: 'layout'
