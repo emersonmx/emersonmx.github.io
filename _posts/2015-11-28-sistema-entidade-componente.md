@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sistema Entidade/Componente"
+title: Sistema Entidade/Componente
 date: 2015-11-28 21:07:00+00:00
 category: engenharia-de-software
 ---

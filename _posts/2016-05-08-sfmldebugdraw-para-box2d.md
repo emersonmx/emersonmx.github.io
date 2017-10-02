@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SFMLDebugDraw para Box2D"
+title: SFMLDebugDraw para Box2D
 date: 2016-05-08 17:51:49+00:00
 category: programacao
 tags:

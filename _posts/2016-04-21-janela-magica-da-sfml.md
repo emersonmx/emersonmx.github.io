@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A janela mágica da SFML"
+title: A janela mágica da SFML
 date: 2016-04-21 15:00:20+00:00
 category: sfml-series
 tags:

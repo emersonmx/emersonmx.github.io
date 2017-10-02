@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pong em SFML com Box2D"
+title: Pong em SFML com Box2D
 date: 2016-05-08 18:20:51+00:00
 category: projetos
 tags:

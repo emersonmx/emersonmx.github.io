@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparação (0 <= x <= 1) ou (0 <= x and x <= 1)?"
+title: Comparação (0 <= x <= 1) ou (0 <= x and x <= 1)?
 date: 2013-11-29 13:32:21+00:00
 category: programacao
 tags:

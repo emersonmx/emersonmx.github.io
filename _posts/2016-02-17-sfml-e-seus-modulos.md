@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SFML e seus módulos"
+title: SFML e seus módulos
 date: 2016-02-17 01:18:46+00:00
 category: sfml-series
 tags:

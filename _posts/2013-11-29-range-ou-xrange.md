@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "range ou xrange?"
+title: range ou xrange?
 date: 2013-11-29 14:50:26+00:00
 category: programacao
 tags:
