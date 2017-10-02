@@ -78,14 +78,8 @@ prose:
     _pages:
       - name: layout
         field:
-          element: select
-          label: Layout
-          placeholder: Selecione o layout
-          options:
-            - name: Post
-              value: post
-            - name: Página
-              value: page
+          element: hidden
+          value: post
     _posts:
       - name: layout
         field:
@@ -140,17 +134,6 @@ prose:
               value: sfml
             - name: Vim
               value: vim
-    _drafts:
-      - name: layout
-        field:
-          element: select
-          label: Layout
-          placeholder: Selecione o layout
-          options:
-            - name: Post
-              value: post
-            - name: Página
-              value: page
 
 # Build settings
 markdown: kramdown
@@ -174,6 +157,10 @@ exclude:
   - webpack.mix.js
   - node_modules/
   - mix-manifest.json
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 timezone: America/Fortaleza
 safe: true
