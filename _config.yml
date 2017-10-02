@@ -45,13 +45,27 @@ prose:
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   media: 'files'
   ignore:
-    - *
-    - !_data
-    - !_drafts
-    - !_posts
-    - !_files
-    - !*.html
-    - !*.txt
+    - _includes
+    - _layouts
+    - _sass
+    - _scripts
+    - assets
+    - fonts
+    - /.gitignore
+    - /_config.yml
+    - /browserconfig.xml
+    - /CNAME
+    - /favicon.ico
+    - /Gemfile
+    - /Gemfile.lock
+    - /icon.png
+    - /links.jsonp
+    - /package-lock.json
+    - /package.json
+    - /site.webmanifest
+    - /tile-wide.png
+    - /tile.png
+    - /webpack.mix.js
   metadata:
     _posts:
       - name: 'layout'
