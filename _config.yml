@@ -80,16 +80,14 @@ prose:
         field:
           element: text
           label: Título
+          value: ''
     _pages:
       - name: title
         field:
           element: text
           label: Título
+          value: ''
     _posts:
-      - name: title
-        field:
-          element: text
-          label: Título
       - name: title
         field:
           element: text
