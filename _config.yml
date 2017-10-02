@@ -80,10 +80,6 @@ prose:
         field:
           element: text
           label: Título
-      - name: layout
-        field:
-          element: hidden
-          value: post
     _pages:
       - name: title
         field:
