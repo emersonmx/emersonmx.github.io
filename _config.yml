@@ -87,6 +87,11 @@ prose:
           element: text
           label: Título
           value: ''
+      - name: permalink
+        field:
+          element: text
+          label: Permalink
+          value: ''
     _posts:
       - name: title
         field:
