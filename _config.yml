@@ -50,7 +50,7 @@ prose:
     - /_layouts
     - /_sass
     - /_scripts
-    - /fonts
+    - /.gitignore
   metadata:
     _posts:
       - name: 'layout'
