@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Eventos da SFML
 date: {}
 category: sfml-series
