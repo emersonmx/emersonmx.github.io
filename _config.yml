@@ -49,6 +49,7 @@ prose:
     - /_layouts
     - /_sass
     - /_scripts
+    - /assets
     - /fonts
     - /.gitignore
     - /_config.yml
