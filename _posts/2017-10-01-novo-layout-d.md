@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Novo layout :D'
 category: rng
 tags:
