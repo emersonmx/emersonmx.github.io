@@ -51,17 +51,20 @@ prose:
     - /_sass
     - /_scripts
     - /.gitignore
-    - /CNAME
-    - /Gemfile
-    - /Gemfile.lock
     - /_config.yml
     - /browserconfig.xml
-    - favicon.ico
-    - links.jsonp
-    - site.webmanifest
-    - tile-wide.png
-    - tile.png
-    - webpack.mix.js
+    - /CNAME
+    - /favicon.ico
+    - /Gemfile
+    - /Gemfile.lock
+    - /icon.png
+    - /links.jsonp
+    - /package-lock.json
+    - /package.json
+    - /site.webmanifest
+    - /tile-wide.png
+    - /tile.png
+    - /webpack.mix.js
   metadata:
     _posts:
       - name: 'layout'
