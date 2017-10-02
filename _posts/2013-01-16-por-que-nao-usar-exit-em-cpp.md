@@ -1,6 +1,5 @@
 ---
 title: 'Por que não usar exit em C++'
-date: 2013-01-16 13:32:46+00:00
 category: programacao
 tags:
   - c
