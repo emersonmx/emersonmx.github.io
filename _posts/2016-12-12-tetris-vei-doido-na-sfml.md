@@ -2,7 +2,9 @@
 title: "Tetris véi doido na SFML"
 date: 2016-12-12 03:07:10+00:00
 category: projetos
-tags: cpp sfml
+tags:
+  - cpp
+  - sfml
 layout: post
 ---
 

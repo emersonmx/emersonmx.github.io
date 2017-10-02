@@ -2,7 +2,9 @@
 title: "Geradores em Python? Quê isso? É de comer?"
 date: 2015-10-28 01:24:18+00:00
 category: programacao
-tags: curiosidades python
+tags:
+  - curiosidades
+  - python
 layout: post
 ---
 
