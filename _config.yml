@@ -50,9 +50,6 @@ prose:
     - /_layouts
     - /_sass
     - /_scripts
-    - /fonts/**/*
-    - /fonts/*
-    - /fonts/
     - fonts
     - /.gitignore
     - /_config.yml
