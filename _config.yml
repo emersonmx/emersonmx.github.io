@@ -89,10 +89,6 @@ prose:
         field:
           element: text
           label: Título
-      - name: layout
-        field:
-          element: hidden
-          value: page
     _posts:
       - name: title
         field:
