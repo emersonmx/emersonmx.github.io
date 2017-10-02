@@ -45,12 +45,12 @@ prose:
   relativeLinks: 'http://www.emersonmx.com.br/links.jsonp'
   media: 'files'
   ignore:
-    - _includes
-    - _layouts
-    - _sass
-    - _scripts
-    - assets
-    - fonts
+    - /_includes
+    - /_layouts
+    - /_sass
+    - /_scripts
+    - /assets
+    - /fonts
     - /.gitignore
     - /_config.yml
     - /browserconfig.xml
@@ -121,11 +121,6 @@ prose:
               value: 'sfml'
             - name: 'Vim'
               value: 'vim'
-      - name: 'splash'
-        field:
-          element: 'text'
-          label: 'Imagem de destaque'
-          value: ''
     _posts/static:
       - name: 'layout'
         field:
