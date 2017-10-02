@@ -51,6 +51,8 @@ prose:
     - /_sass
     - /_scripts
     - /fonts/**/*
+    - /fonts/*
+      /fonts
     - /.gitignore
     - /_config.yml
     - /browserconfig.xml
