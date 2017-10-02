@@ -76,11 +76,19 @@ prose:
     - /webpack.mix.js
   metadata:
     _pages:
+      - name: title
+        field:
+          element: text
+          label: Título
       - name: layout
         field:
           element: hidden
-          value: post
+          value: page
     _posts:
+      - name: title
+        field:
+          element: text
+          label: Título
       - name: layout
         field:
           element: hidden
