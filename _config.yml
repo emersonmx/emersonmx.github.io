@@ -46,12 +46,12 @@ prose:
   media: 'files'
   ignore:
     - *
-    - !/_data
-    - !/_drafts
-    - !/_posts
-    - !/_files
-    - !/*.html
-    - !/*.txt
+    - !_data
+    - !_drafts
+    - !_posts
+    - !_files
+    - !*.html
+    - !*.txt
   metadata:
     _posts:
       - name: 'layout'
