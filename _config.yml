@@ -78,10 +78,13 @@ prose:
     _drafts:
       - name: title
         field:
-          element: text
-          label: Título
+          element: hidden
           value: ''
     _pages:
+      - name: title
+        field:
+          element: hidden
+          value: ''
       - name: permalink
         field:
           element: text
