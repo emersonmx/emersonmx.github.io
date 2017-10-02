@@ -78,8 +78,14 @@ prose:
     _pages:
       - name: layout
         field:
-          element: hidden
-          value: post
+          element: select
+          label: Layout
+          placeholder: Selecione o layout
+          options:
+            - name: Post
+              value: post
+            - name: Página
+              value: page
     _posts:
       - name: layout
         field:
