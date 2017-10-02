@@ -168,10 +168,6 @@ exclude:
   - webpack.mix.js
   - node_modules/
   - mix-manifest.json
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 timezone: America/Fortaleza
 safe: true
