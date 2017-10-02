@@ -134,6 +134,17 @@ prose:
               value: 'sfml'
             - name: 'Vim'
               value: 'vim'
+    _drafts:
+      - name: layout
+        field:
+          element: select
+          label: Layout
+          placeholder: Selecione o layout
+          options:
+            - name: Post
+              value: post
+            - name: Página
+              value: page
 
 # Build settings
 markdown: kramdown
