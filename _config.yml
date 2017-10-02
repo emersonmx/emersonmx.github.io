@@ -82,14 +82,8 @@ prose:
           label: Título
       - name: layout
         field:
-          element: select
-          label: Layout
-          placeholder: Selecione o layout
-          options:
-            - name: Page
-              value: page
-            - name: Post
-              value: post
+          element: hidden
+          value: post
     _pages:
       - name: title
         field:
