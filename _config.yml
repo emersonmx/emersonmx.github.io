@@ -52,7 +52,7 @@ prose:
     - /_scripts
     - /fonts/**/*
     - /fonts/*
-      /fonts
+      /fonts/
     - /.gitignore
     - /_config.yml
     - /browserconfig.xml
