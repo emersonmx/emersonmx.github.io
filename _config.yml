@@ -75,6 +75,21 @@ prose:
     - /tile.png
     - /webpack.mix.js
   metadata:
+    _drafts:
+      - name: title
+        field:
+          element: text
+          label: Título
+      - name: layout
+        field:
+          element: select
+          label: Layout
+          placeholder: Selecione o layout
+          options:
+            - name: Page
+              value: page
+            - name: Post
+              value: post
     _pages:
       - name: title
         field:
