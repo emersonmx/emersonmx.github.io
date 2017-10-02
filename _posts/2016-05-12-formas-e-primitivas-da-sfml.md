@@ -1,5 +1,6 @@
 ---
 title: 'Formas e primitivas da SFML'
+date: 2016-05-12 16:08:57+00:00
 category: sfml-series
 tags:
   - cpp
