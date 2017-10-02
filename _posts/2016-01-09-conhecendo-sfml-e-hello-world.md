@@ -1,5 +1,5 @@
 ---
-title: Conhecendo a SFML e Hello World!
+title: 'Conhecendo a SFML e Hello World!'
 date: 2016-01-09 23:28:22+00:00
 category: sfml-series
 tags:

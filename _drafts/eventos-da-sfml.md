@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eventos da SFML
+title: 'Eventos da SFML'
 date: {}
 category: sfml-series
 tags:

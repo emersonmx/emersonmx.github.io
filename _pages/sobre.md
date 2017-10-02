@@ -1,5 +1,5 @@
 ---
-title: Sobre
+title: 'Sobre'
 date: 2008-05-29 03:07:57+00:00
 permalink: /sobre/
 ---
