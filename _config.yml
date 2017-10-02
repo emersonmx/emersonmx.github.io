@@ -82,11 +82,6 @@ prose:
           label: Título
           value: ''
     _pages:
-      - name: title
-        field:
-          element: text
-          label: Título
-          value: ''
       - name: permalink
         field:
           element: text
