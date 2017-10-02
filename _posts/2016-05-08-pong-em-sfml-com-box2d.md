@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pong em SFML com Box2D"
 date: 2016-05-08 18:20:51+00:00
 category: projetos
@@ -6,7 +7,6 @@ tags:
   - box2d
   - cpp
   - sfml
-layout: post
 ---
 
 Êta carai! Hoje trago para vocêses um jogo de pong implementado em SFML e um

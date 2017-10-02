@@ -1,11 +1,11 @@
 ---
+layout: post
 title: "Minhas configurações do Vim"
 date: 2016-02-25 23:55:45+00:00
 category: rng
 tags:
   - rng
   - vim
-layout: post
 ---
 
 Digaê mundiça vimer!

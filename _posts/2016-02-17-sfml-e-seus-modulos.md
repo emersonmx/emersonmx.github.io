@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "SFML e seus módulos"
 date: 2016-02-17 01:18:46+00:00
 category: sfml-series
@@ -6,7 +7,6 @@ tags:
   - cpp
   - serie
   - sfml
-layout: post
 ---
 
 E no post de hoje será mostrada uma visão geral dos módulos da SFML. A qual foi

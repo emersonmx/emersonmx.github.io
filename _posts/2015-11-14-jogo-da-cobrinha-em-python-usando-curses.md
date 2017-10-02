@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "Jogo da cobrinha em Python usando curses"
 date: 2015-11-14 00:56:43+00:00
 category: programacao
 tags:
   - python
-layout: post
 ---
 
 Veeeeei! nem acredito que achei esse código. Pensei ter ido pro saco quando

@@ -1,8 +1,8 @@
 ---
+layout: post
 title: "Sistema Entidade/Componente"
 date: 2015-11-28 21:07:00+00:00
 category: engenharia-de-software
-layout: post
 ---
 
 A nóia de hoje em dia no mundos dos _GameDev_ é o Sistema de

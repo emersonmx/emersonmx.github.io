@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "A janela mágica da SFML"
 date: 2016-04-21 15:00:20+00:00
 category: sfml-series
@@ -6,7 +7,6 @@ tags:
   - cpp
   - serie
   - sfml
-layout: post
 ---
 
 Sim, tratemos de magia! Hoje vamos ver um pouquinho da Hogwarts dos bruxos da

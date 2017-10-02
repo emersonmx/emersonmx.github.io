@@ -1,11 +1,11 @@
 ---
+layout: post
 title: "Python, Virtualenv e Scrapy!"
 date: 2015-11-20 00:14:52+00:00
 category: programacao
 tags:
   - python
   - rng
-layout: post
 ---
 
 E no post regido pelo RNG de hoje, vamos tratar de _Python_, _Virtualenv_ e
