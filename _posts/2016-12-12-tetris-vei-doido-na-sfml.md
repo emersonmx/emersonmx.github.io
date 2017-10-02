@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tetris véi doido na SFML
 date: 2016-12-12 03:07:10+00:00
 category: projetos

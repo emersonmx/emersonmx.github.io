@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "Sobre"
+title: Sobre
 date: 2008-05-29 03:07:57+00:00
+permalink: /sobre/
 ---
 
 Este blog é um diário de programador. Aqui pode ter todo tipo de coisa,

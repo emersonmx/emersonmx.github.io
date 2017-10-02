@@ -32,6 +32,14 @@ defaults:
       path: ''
     values:
       image: /assets/img/facebook.png
+  - scope:
+      path: _posts
+    values:
+      layout: post
+  - scope:
+      path: _pages
+    values:
+      layout: page
 
 permalink: /:categories/:title/
 paginate: 5
@@ -121,21 +129,6 @@ prose:
               value: 'sfml'
             - name: 'Vim'
               value: 'vim'
-    _posts/static:
-      - name: 'layout'
-        field:
-          element: 'hidden'
-          value: 'page'
-      - name: 'title'
-        field:
-          element: 'text'
-          label: 'Título'
-          value: ''
-      - name: 'permalink'
-        field:
-          element: 'text'
-          label: 'Permalink'
-          value: ''
 
 # Build settings
 markdown: kramdown
@@ -146,6 +139,8 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
+include:
+  - _pages
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

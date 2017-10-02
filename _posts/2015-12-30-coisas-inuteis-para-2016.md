@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Coisas inúteis para 2016
 date: 2015-12-30 00:10:02+00:00
 category: rng
