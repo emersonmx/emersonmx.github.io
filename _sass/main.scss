@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 @import "variables";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~font-awesome/scss/font-awesome";
 
 html, body {
     min-height: 100%;
@@ -37,7 +42,8 @@ header {
             height: 7%;
         }
         .navbar-toggle {
-            margin: 5px 10px 5px auto;
+            margin: 5px 5px 5px auto;
+            padding-right: 0;
             font-size: 2rem;
             border: none;
             &:hover, &:focus {
@@ -93,6 +99,15 @@ article {
     article {
         footer {
             margin: 30px auto;
+        }
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    header .navbar {
+        h1.navbar-brand {
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 }
