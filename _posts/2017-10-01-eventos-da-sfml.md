@@ -7,7 +7,7 @@ tags:
   - cpp
   - serie
   - sfml
-published: true
+published: false
 image: /files/eventos-sfml.png
 ---
 ![eventos-sfml.png]({{site.baseurl}}/files/eventos-sfml.png)
