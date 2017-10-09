@@ -1,11 +1,12 @@
 ---
-published: false
+published: true
 title: Eventos da SFML
 category: sfml-series
 tags:
   - cpp
   - serie
   - sfml
+image: /files/eventos-sfml.png
 ---
 ![eventos-sfml.png]({{site.baseurl}}/files/eventos-sfml.png)
 
