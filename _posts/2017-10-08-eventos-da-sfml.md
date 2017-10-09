@@ -15,3 +15,18 @@ Vamos falar dos eventos da SFML! O que são, como são usados e muito mais
 no post da série mais aleatória deste blog. :D
 
 Sim! Vamos para parte lecal da coisa.
+
+- O que é um `sf::Event`?
+- Como uso o `sf::Event`?
+- Quais são os eventos que posso capturar?
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::count << "Hello world\n";
+    return 0;
+}
+```
+
+## 3C
