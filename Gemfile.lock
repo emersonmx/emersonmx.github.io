@@ -217,6 +217,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jemoji
+  rouge
   tzinfo-data
 
 BUNDLED WITH

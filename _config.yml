@@ -145,6 +145,7 @@ prose:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-paginage

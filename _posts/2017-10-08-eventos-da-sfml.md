@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Eventos da SFML
 category: sfml-series
 tags:
@@ -17,14 +17,18 @@ no post da série mais aleatória deste blog. :D
 Sim! Vamos para parte lecal da coisa.
 
 - O que é um `sf::Event`?
-- Como uso o `sf::Event`?
+- Como uso?
 - Quais são os eventos que posso capturar?
+
+- O que são os dispositivos de entradas globais?
+- Como uso isso?
+- É diferente dos eventos?
 
 ```cpp
 #include <iostream>
 
 int main() {
-    std::count << "Hello world\n";
+    std::cout << "Hello world!\n";
     return 0;
 }
 ```
