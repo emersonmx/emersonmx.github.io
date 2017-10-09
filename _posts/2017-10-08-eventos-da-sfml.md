@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Eventos da SFML
 category: sfml-series
 tags:
