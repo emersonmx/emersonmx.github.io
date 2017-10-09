@@ -9,6 +9,7 @@ tags:
   - sfml
 published: true
 ---
+![eventos-sfml.png]({{site.baseurl}}/files/eventos-sfml.png)
 
 E na São Falo Mashion Leek dessa semana... Não pera...\\
 Vamos falar dos eventos da SFML! O que são, como são usados e muito mais
