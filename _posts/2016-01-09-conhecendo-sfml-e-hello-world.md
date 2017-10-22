@@ -26,7 +26,7 @@ de começar. Bem, você não é obrigado a ler. Isso é mais para quem é inici
 Mas caso você seja, lá tem uma [lista de coisas que você precisa aprender para
 não ter problema com o uso da
 biblioteca](http://www.sfml-dev.org/faq.php#grl-learn). E
-mais uma vez, isso é só uma recomendação :)
+mais uma vez, isso é só uma recomendação :smile:
 
 [Anteriormente eu já postei um "Relou Uôrdi"]({{ site.baseurl
 }}{% post_url 2015-11-06-um-relou-uordi-com-sfml-e-cmake %}), mas
@@ -45,16 +45,16 @@ A [Simple and Fast Multimidia Library
 ](http://www.sfml-dev.org/)(SFML) é uma biblioteca escrita em
 C++ para desenvolvimento de aplicações multimídias. O qual inclui jogos,
 players de vídeo/música, leitor de pdf e o caralho a quatro.  Tudo depende da
-sua criatividade :)
+sua criatividade :smile:
 
 -- mas... mas... eu sou programador!! meu negócio é código! :(
 
 Oxi, quem disse que programador num tem criatividade? Você acha que pra
-fazer uma gambiarra não precisa de criatividade não? :)
+fazer uma gambiarra não precisa de criatividade não? :smile:
 
 -- ...
 
-Continuando :)
+Continuando :smile:
 
 A SFML é formada por cinco componentes: Sistema, Janela, Gráfico, Áudio e
 Rede (sim aquelas que você pendura no torno :expressionless:). Ela roda no Windows, Linux,
@@ -64,7 +64,7 @@ outras](http://www.sfml-dev.org/download/bindings.php).
 
 -- Oxi, mas num é muito mió a [SDL](http://libsdl.org/) não?
 
-Foda-se a SDL :)\\
+Foda-se a SDL :smile:\\
 [SFML é uma SDL orientada a
 objetos](http://www.sfml-dev.org/faq.php#grl-whatis) e é
 1000x melhor e tem uma API mais "confortável" de usar :P\\
@@ -76,8 +76,8 @@ antigamente.
 
 -- Então ela deve ser mai façu de usar o,o
 
-Claro que é :)\\
-Vamos para o exemplo :)
+Claro que é :smile:\\
+Vamos para o exemplo :smile:
 
 ## Hello World!
 
@@ -92,7 +92,7 @@ segue os novos paranauê do C++ (C++11) e deixe o bixo bem simples. Veja só:
 C*
 
 Jovem, eu deixo o link pro doc da [classe Windows da
-SFML](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Window.php#ac30eb6ea5f5594204944d09d4bd69a97) :)
+SFML](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Window.php#ac30eb6ea5f5594204944d09d4bd69a97) :smile:
 
 -- É... realmente o bixo limpa na hora que o programa termina... mas eu não
 tenho controle sobre o gerenciamento de memória! *mais mimimi de programador C*
@@ -111,13 +111,13 @@ jogada]({{ site.baseurl }}{% link /files/2016/01/yu-gi-oh.jpg %})
 -- Certo, você venceu -.-
 
 A SFML usa com força as novas coisas do C++11 e isso simplifica e deixa o
-código mais limpo e seguro :)\\
+código mais limpo e seguro :smile:\\
 Se você quiser um livro sobre o C++ moderno, tem o [Effective Modern
 C++](http://www.amazon.com.br/Effective-Modern-Specific-Ways-Improve/dp/1491903996).
 Ele dá uma ideia do que tá rolando nas quebradas.
 
 Eu coloquei no código como construir o executável usando a linha de comando
-(Sim, a tela preta from Hell :) ). E pretendo fazer isso para todos os códigos
+(Sim, a tela preta from Hell :smile: ). E pretendo fazer isso para todos os códigos
 que fizer pra esta série, exceto os que forem muito grande.  Se você usa IDE
 (porra, véi usar IDE pra compilar 3 linha de código?), tem no [Getting
 Started](http://www.sfml-dev.org/tutorials/2.3/#getting-started) explicando
@@ -137,6 +137,6 @@ repositório do GitHub](https://github.com/SFML/SFML/wiki). Lá
 tem uns paranauê muito loco e recomendo você favoritar esses links. Se você for
 ver, eu nem precisa escrever essa série, pois já tem documentação boa
 disponível, mas como eu não tenho nada o que fazer, escrever pode ser um bom
-passa-tempo :)\\
+passa-tempo :smile:\\
 No próximo post vou falar sobre cada um dos módulo da SFML,
 então inté lá :D

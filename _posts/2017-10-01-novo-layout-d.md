@@ -9,4 +9,4 @@ tags:
 ---
 Depois de uns 10 anos resolvi montar um "novo layout" pro blog. Pode ser que com isso acabe voltando a escrever...
 
-De qualquer modo, só o futuro dirá :)
+De qualquer modo, só o futuro dirá :smile:

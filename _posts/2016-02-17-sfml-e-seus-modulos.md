@@ -84,7 +84,7 @@ de _Strings_ e classes de vetores com duas e três dimensões.
 -- É isso explica muita coisa sobre a dependências dos outros módulos o,o
 
 Pode ter certeza que sim. Então sempre lembre de adicionar o módulo _System_
-por último :)
+por último :smile:
 
 Continuando os paranauê sobre o módulo _System_...\\
 Eu não posso deixar de notar que a parte dos Dreds
@@ -124,7 +124,7 @@ desenhar coisas em 3D nela! :D
 -- Mas eu só gosto de jogo 2D >,<
 
 Claro que você pode fazer um jogo em 2D, pois 2D é um subconjunto do 3D.\\
-Tudo está na forma como você quer vender sua arte na praia meu jovem :)
+Tudo está na forma como você quer vender sua arte na praia meu jovem :smile:
 
 Essa parte da tela já vim com um contexto _OpenGL_ foi o que me fez ver a SFML
 com outros olhos, mas nem só de frufru vive uma janela. É preciso ter eventos!

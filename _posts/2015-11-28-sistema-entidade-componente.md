@@ -134,7 +134,7 @@ de posicionamento _**E**_ um componente de imagem. Ele vai pedir para o
 _EntityManager_ todas as entidades que tenham esses componentes. Com eles em
 mãos, o Sistema vai pegar a posição e a imagem de cada entidade para então
 desenhá-las na tela. Depois do processamento das entidades o Sistema aguarda
-até a próxima vez que for chamado. Simples e mortal :)
+até a próxima vez que for chamado. Simples e mortal :smile:
 
 -- É, nadis de muito complicado aqui. Sistemas = lógica de negócio :expressionless:
 

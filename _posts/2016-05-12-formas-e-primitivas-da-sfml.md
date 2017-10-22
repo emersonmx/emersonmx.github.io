@@ -76,7 +76,7 @@ ou
 para a janela mágica. Pro primeiro o desenho é um
 simples `window.draw(meuVertexArray)`, já o segundo você
 usa `window.draw(linha, 2, sf::Lines)`. É praticamente a mesma coisa, só muda o
-local onde vai ficar o `sf::Lines`. Eu prefiro o `sf::VertexArray` :)
+local onde vai ficar o `sf::Lines`. Eu prefiro o `sf::VertexArray` :smile:
 
 ## Pontos
 
