@@ -3,7 +3,6 @@ title: 'Um "Relou Uôrdi" com SFML e CMake'
 date: 2015-11-06 03:34:24+00:00
 category: programacao
 tags:
-  - c
   - cpp
   - dicas
   - sfml
