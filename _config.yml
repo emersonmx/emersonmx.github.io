@@ -46,6 +46,8 @@ paginate: 5
 paginate_path: '/page:num/'
 date_format: '%Y-%m-%d %H:%M'
 excerpt_separator: '<!--more-->'
+
+# Categories and Tags info
 category_list: &category_list
   - name: 'Engenharia de Software'
     value: engenharia-de-software
