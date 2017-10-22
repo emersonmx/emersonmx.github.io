@@ -77,6 +77,19 @@ article {
         padding: 5px 0;
         text-align: right;
     }
+    footer {
+        .info {
+            display: flex;
+            flex-flow: row wrap;
+            .item {
+                align-self: flex-start;
+                padding-right: 20px;
+            }
+            .item:last-child {
+                padding-right: 0;
+            }
+        }
+    }
 }
 
 .footer {

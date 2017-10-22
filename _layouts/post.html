@@ -19,14 +19,7 @@ layout: default
                 </div>
 
                 <footer>
-                    <div>
-                        <span>
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <time datetime="page.date | date_to_xmlschema" itemprop="datePublished">
-                                {% include date-for-humans.html date=page.date %}
-                            </time>
-                        </span>
-                    </div>
+                    {% include articles/footer-info.html post=page %}
                     {% if site.disqus.shortname %}
                         {% include disqus-comments.html %}
                     {% endif %}

@@ -1,0 +1,18 @@
+<div class="info">
+    <span class="item">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <time datetime="include.post.date | date_to_xmlschema" itemprop="datePublished">
+            {% include date-for-humans.html date=include.post.date %}
+        </time>
+    </span>
+    <span class="item">
+        <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+        {{ site.data.categories[include.post.category] }}
+    </span>
+    <span class="item">
+        <i class="fa fa-tags" aria-hidden="true"></i>
+        {% for tag in include.post.tags %}
+            {{ site.data.tags[tag] }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+    </span>
+</div>

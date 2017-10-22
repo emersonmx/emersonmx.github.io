@@ -27,14 +27,7 @@ layout: default
                 </div>
 
                 <footer>
-                    <div>
-                        <span>
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <time datetime="post.date | date_to_xmlschema" itemprop="datePublished">
-                                {% include date-for-humans.html date=post.date %}
-                            </time>
-                        </span>
-                    </div>
+                    {% include articles/footer-info.html post=post %}
                 </footer>
             </article>
             {% endfor %}
