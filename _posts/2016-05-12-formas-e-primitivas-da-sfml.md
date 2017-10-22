@@ -23,7 +23,7 @@ e definiu algumas propriedades da forma, é só chamar um
 
 -- Então pra quê tá fazendo o post? Ò,ó
 
--- Só pra mostrar que existe :smiley:\\
+Só pra mostrar que existe :smiley:\\
 mas vamos falar de cada uma detalhadamente.
 
 <!--more-->
@@ -61,7 +61,7 @@ Criou o objeto e definiu os atributos? passa pro `window.draw()`.
 O que seria esse troço? [Veja a classificação e a imagem no artigo da
 wikipédia](https://pt.wikipedia.org/wiki/Pol%C3%ADgono#Classifica.C3.A7.C3.A3o_2).\\
 Se entendeu do que se trata, nem tente desenhar uma forma concava com a
-classe `[sf::ConvexShape](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1ConvexShape.php)`.
+classe [`sf::ConvexShape`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1ConvexShape.php).
 Se você quiser desenhar uma forma côncava, você terá que quebrá-las em formas
 convexas. Essa classe é praticamente uma círculo sem o raio. Assim como as
 outras formas, você pode definir as viadagens e as transformações e depois
@@ -70,9 +70,9 @@ passar pra janela mágica.
 ## Linha
 
 A linha nada mais é do que um par de pontos. Elas são desenhadas passando um
-[sf::VertexArray](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1VertexArray.php)
+[`sf::VertexArray`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1VertexArray.php)
 ou
-[sf::Vertex](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Vertex.php)[]
+[`sf::Vertex[]`](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1Vertex.php)
 para a janela mágica. Pro primeiro o desenho é um
 simples `window.draw(meuVertexArray)`, já o segundo você
 usa `window.draw(linha, 2, sf::Lines)`. É praticamente a mesma coisa, só muda o
