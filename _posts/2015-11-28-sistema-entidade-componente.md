@@ -11,7 +11,7 @@ hierárquica é uma merda/bixada/um lixo/algo pôdi" ou algo do tipo :P\\
 Eu não nego que a arquitetura é foda e muito simples de usar ([veja o
 _Unity3D_](http://unity3d.com/)), mas e se eu quiser
 implementar uma do zero?  Aaaahhh meu amiguinho, aí a merda corre solta. Sem
-mais muído, xêcomigo e ramu rê como que essa bagaça funciona :D
+mais muído, xêcomigo e ramu rê como que essa bagaça funciona :smiley:
 
 <!--more-->
 
@@ -69,7 +69,7 @@ jogos grandes do nível de MMOs e afins que não querem ser muito _Mainstream_ :
 
 Fica assim não, mesmo que você não crie nenhum jogo, pois não terminou de
 implementar a arquitetura, você ainda vai aprender muitos paranauê lôco. Então
-por enquanto vamos continuar com os componentes básicos da arquitetura :D
+por enquanto vamos continuar com os componentes básicos da arquitetura :smiley:
 
 ## Elementos do SEC
 
@@ -83,14 +83,14 @@ simples ID, ou melhor um número?
 não pode está certo!
 
 Quem é você pra dizer que está errado? Ou quem sou eu pra dizer que tá certo?
-:D
+:smiley:
 
 -- ...
 
 Saiba que no mundo dos bancos de dados você pode agrupar/identificar as
 tuplas/linhas de uma tabela com um simples ID. Então os Componentes e as
 Entidades seriam colunas que formam uma tupla numa tabela de um banco de dados.
-Perfeito não? Dá pra aplicar altas nóias da teoria dos conjuntos :D
+Perfeito não? Dá pra aplicar altas nóias da teoria dos conjuntos :smiley:
 
 -- Sei mais isso não é mais Programação Orientada a Objetos…
 
@@ -104,7 +104,7 @@ pois isso é algo que veio para o bem (ou não).
 
 Eu falei que as Entidades e os Componentes formar praticamente uma tupla numa
 tabela de um banco. E isso não poderia está mais certo, caso você fosse
-implementar um MMORPG :D
+implementar um MMORPG :smiley:
 
 -- Vixi o,o E como eu faço pra pegar os Componentes das Entidades? Implemento
 um [CRUD](https://pt.wikipedia.org/wiki/CRUD)?
@@ -142,7 +142,7 @@ Isso!\\
 E por último temos o _ComponentType_. Ele só é usado para identificar o tipo do
 componente em linguagens que não deixam fazer isso de forma mais simples como o
 C++. Então caso a linguagem permita não é preciso implementar esse elemento. E
-assim partimos para as tretas da implementação de um SEC :D
+assim partimos para as tretas da implementação de um SEC :smiley:
 
 ## As tretas que podem surgir ao implementar um SEC
 

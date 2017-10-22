@@ -26,7 +26,7 @@ Bem, vamos ao que interessa.
 Aqui está a [minha configuração do
 Vim](https://github.com/emersonmx/vimconfig).
 
-E o mais importante dele são os plugins :D\\
+E o mais importante dele são os plugins :smiley:\\
 Veja abaixo a lista dos que eu tô/tava usando quando escrevi este post :b
 
   * [neobundle ](https://github.com/Shougo/neobundle.vim)

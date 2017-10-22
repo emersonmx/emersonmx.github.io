@@ -14,7 +14,7 @@ funciona é meio diferente e totalmente WTF?! O,o
 
 <!--more-->
 
-Veja o seguinte código (funciona no _Python_ 2 e 3 :D)
+Veja o seguinte código (funciona no _Python_ 2 e 3 :smiley:)
 
 ```python
 #!/usr/bin/env python
@@ -104,7 +104,7 @@ cabarés e por ultimo o preço das puta de cada cabaré. #SQN
 Os que manjam dos paranauê dos padrões de projeto, já devem ter sentido esse
 ki. Se você pensou "essa merda é um iterator", você está certo. Resumindo, um
 gerador é apenas uma forma simples de implementar um iterador em _Python_
-(Chupa Java :D).
+(Chupa Java :smiley:).
 
 E o que podemos aprender com isso abiguinhos?
   * Eu aprendi qui um gerador num é uma função
@@ -115,7 +115,7 @@ E o que podemos aprender com isso abiguinhos?
   * E que as puta de Zé muringa cobra 4...
 
 
-É, chega por hoje, falow valeu :D
+É, chega por hoje, falow valeu :smiley:
 
 ## Referência
 1. [https://wiki.python.org/moin/Generators](https://wiki.python.org/moin/Generators)

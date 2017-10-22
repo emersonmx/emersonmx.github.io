@@ -19,12 +19,12 @@ que a SFML fazia o que eu tava fazendo…
 ![Virando a mesa]({{ site.baseurl }}{% link /files/2015/11/flipping_table.png %})
 
 Foda-se o que eu estou fazendo! Vou usar essa aqui que já tá com mei camim
-andado, qualquer coisa eu contribuo com o projeto :D
+andado, qualquer coisa eu contribuo com o projeto :smiley:
 
 **Legal, mai num mi diga que você vai fazer um post só prum Relou Uôrdi não
 né?**
 
-Ora se não :D\\
+Ora se não :smiley:\\
 Os programadores tem uma mania de ficar fazendo Relou Uôrdi (_Hello World_) de
 tudo que vê pela frente. Assim, para não fugir desse ritual
 <del>satânico</del>, vou mostrar como seria um troço desse com SFML. E
@@ -134,7 +134,7 @@ bibroteca do SFML não.**
 
 Se sua versão do _CMake_ for a 2 você vai ter que colocar o
 [FindSFML.cmake](https://raw.githubusercontent.com/SFML/SFML/master/cmake/Modules/FindSFML.cmake)
-na pasta `cmake_modules`. Na versão 3 já vem embutido :D
+na pasta `cmake_modules`. Na versão 3 já vem embutido :smiley:
 
 Quando tiver um tempo veja o [tutorial do
 _CMake_](https://cmake.org/cmake-tutorial/) e caso haja
@@ -143,7 +143,7 @@ projeto](https://cmake.org/Wiki/CMake).
 
 ## O material de construção, a bibroteca SFML
 
-SFML é uma abreviação para: Simples, Fudida de ligera e Muito Loca :D
+SFML é uma abreviação para: Simples, Fudida de ligera e Muito Loca :smiley:
 Brincadeira! Na verdade é _Simple and Fast Multimedia Library_. E no meu caso,
 eu gosto dela porque a API é simples, separada em módulos e é escrita em C++.
 

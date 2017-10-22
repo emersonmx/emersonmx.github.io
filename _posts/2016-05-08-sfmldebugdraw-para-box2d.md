@@ -16,7 +16,7 @@ usuário MrPlow442](https://github.com/MrPlow442/Box2D-SFML2-Debug-Draw).
 Depois de um tempo quando fui aprendendo algumas coisas sobre a SFML, eu
 resolvi reimplementar do meu jeito. Isso resultou
 neste [Gist](https://gist.github.com/emersonmx/c90067f5ad906620bb4ee2ee3da5b0fd) maroto.
-Então caso esteja procurando algo do tipo, taí um lugar pra começar :D
+Então caso esteja procurando algo do tipo, taí um lugar pra começar :smiley:
 
 **Aviso:** A minha implementação eu tirei de um projeto meu e deu priguiça de
 deixar bunitinho. Então se você jogar no seu projeto não vai funcionar. Você

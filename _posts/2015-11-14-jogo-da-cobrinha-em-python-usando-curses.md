@@ -7,17 +7,17 @@ tags:
 ---
 
 Veeeeei! nem acredito que achei esse código. Pensei ter ido pro saco quando
-formatei o pc :D\\
+formatei o pc :smiley:\\
 O clássico jogo da cobrinha escrito em Python 3 usando curses! SIM! Um jogo da
 cobrinha para a tela preta from hell! Pena que num tá completo... mas foda-se
-achei o código :D
+achei o código :smiley:
 
 <!--more-->
 
 Apruveitei e coloquei o jogo em um [repositório do
 github](https://github.com/emersonmx/cobra-pycurses) para ter
 certeza que num vai pro saco de novo. Se quiser baixar para analisar o código
-vai em frente, mas lembre de colocar seus óculos anti gambiarra :D
+vai em frente, mas lembre de colocar seus óculos anti gambiarra :smiley:
 
 Aqui vai algumas ibagens
 

@@ -13,7 +13,7 @@ SFML. O módulo
 _[Graphics](http://www.sfml-dev.org/documentation/2.3.2/group__graphics.php)_, em
 específico a classe
 _[RenderWindow](http://www.sfml-dev.org/documentation/2.3.2/classsf_1_1RenderWindow.php)_.
-Então, bora lá? :D
+Então, bora lá? :smiley:
 
 <!--more-->
 
@@ -70,10 +70,10 @@ aqui:
 sf::RenderWindow window(sf::VideoMode(640, 480), "Magic Window");
 ```
 
-É um negócio tão complicado que chega faz medo :D
+É um negócio tão complicado que chega faz medo :smiley:
 
 -- Pooorraaannn o,o
 
 Então jovi, muito simples né? A partir de agora só vou usar a _RenderWindow_
 nos exemplos. Exceto em casos que seja muito simples e eu queira ficar apenas
-com a implementação da _Window_. Tudo beleza? Então inté a próxima :D
+com a implementação da _Window_. Tudo beleza? Então inté a próxima :smiley:

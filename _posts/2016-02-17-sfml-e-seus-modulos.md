@@ -15,11 +15,11 @@ oficial](http://www.sfml-dev.org/tutorials/2.3/) :P
 -- Oxi! E porque motivo, razão ou circunstância você resolveu falar dos módulos
 se já tem no tutorial? O,o
 
-Não sei! Só sei que foi assim :D\\
+Não sei! Só sei que foi assim :smiley:\\
 Na verdade na verdade, no fundo no fundo, eu só queria deixar as coisas mais
 organizadas nessa <del>puteiro</del> série. O tutorial oficial é muito bom e eu
 aconselho dá uma conferida mais tarde, mas por enquanto vamos continuar com o
-post :D
+post :smiley:
 
 <!--more-->
 
@@ -72,7 +72,7 @@ E sim! Isso é uma coisa que é falada no [FAQ
 marôto](http://www.sfml-dev.org/faq.php#build-link).
 
 Agora que sabemos o básico do básico sobre os módulos, vamos estripar cada um
-pra ver o que tem por dentro :D
+pra ver o que tem por dentro :smiley:
 
 ## System
 
@@ -119,7 +119,7 @@ Uma tela preta from hell! @>@
 -- :expressionless:
 
 Calma não é só uma tela, é uma tela com um contexto _OpenGL_! Você pode
-desenhar coisas em 3D nela! :D
+desenhar coisas em 3D nela! :smiley:
 
 -- Mas eu só gosto de jogo 2D >,<
 
@@ -213,8 +213,8 @@ abiguinhos.
   * OpenGL Rulez;
   * Você vai precisar percorrer toda a maromba de Kid Bengala pra fazer um MMO;
   * Tem muito mais, só que eu vou deixar isso pra outros posts;
-  * E tudo isso se resume no _Post-It_ de joaninha :D
+  * E tudo isso se resume no _Post-It_ de joaninha :smiley:
 
 ![post-it de joaninha]({{ site.baseurl }}{% link /files/2016/02/post-it-joaninha.jpg %})
 
-Isso é tudo pessuar :D
+Isso é tudo pessuar :smiley:

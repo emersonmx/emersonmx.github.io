@@ -12,9 +12,9 @@ série sobre SFML ou Box2D e se der sorte algum projeto besta.
 <!--more-->
 
 É, por enquanto é só. E para não terminar o post com nada útil, aqui vai um
-papel de parede criado pelo designer mais foda dos universus tudo (eu :D). Se
+papel de parede criado pelo designer mais foda dos universus tudo (eu :smiley:). Se
 liga nessa paleta de cores (VIIXE), na composição (VIIIXE), no uso
 indiscriminado do SVG da logo do Arch que vem no sistema (VIIIIXE). É
-profissonal demais, armaria nam :D
+profissonal demais, armaria nam :smiley:
 
 ![Simple Arch Linux Wallpaper]({{ site.baseurl }}{% link /files/2015/12/arch.png %})

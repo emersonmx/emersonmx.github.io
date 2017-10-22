@@ -23,7 +23,7 @@ e definiu algumas propriedades da forma, é só chamar um
 
 -- Então pra quê tá fazendo o post? Ò,ó
 
--- Só pra mostrar que existe :D\\
+-- Só pra mostrar que existe :smiley:\\
 mas vamos falar de cada uma detalhadamente.
 
 <!--more-->
@@ -45,7 +45,7 @@ você passar um número para o segundo parâmetro do construtor ou definir via
 informada. Assim, caso você passe 3, o círculo será um triângulo equilátero,
 caso passe 4, será um quadrado, caso passe 5 um pentágono, com 6, hexágono, e
 por aí vai até chegar num momento que você não consiga contar os lados e o bixo
-vire um círculo :D
+vire um círculo :smiley:
 
 ## Retângulo
 
@@ -82,7 +82,7 @@ local onde vai ficar o `sf::Lines`. Eu prefiro o `sf::VertexArray` :smile:
 
 Os pontos meu jovi, é um simples `sf::Vertex` ou um `sf::VertexArray` com 1
 ponto. No caso do `sf::Vertex` seria algo como  `window.draw(&point, 1,
-sf::Points)`. E mais uma vez eu ainda prefixo o `sf::VertexArray` :D
+sf::Points)`. E mais uma vez eu ainda prefixo o `sf::VertexArray` :smiley:
 
 ## Formas mirabolantes
 
@@ -94,4 +94,4 @@ para computar a geometria interna.
 ## 3C
 
 E neste post maravilhindo, você viu como usar as formas, primitivas e como
-criar sua própria forma (aham pense...). Inté o próximo post :D
+criar sua própria forma (aham pense...). Inté o próximo post :smiley:

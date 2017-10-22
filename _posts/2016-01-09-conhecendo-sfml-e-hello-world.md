@@ -35,7 +35,7 @@ biblioteca. Esta série será mais séria (Saitama aprova).
 
 ![Saitama_OK]({{ site.baseurl }}{% link /files/2016/01/Saitama_OK.jpg %})
 
-Então galere, deixemos de embromação e vamu começar essa baixaria :D
+Então galere, deixemos de embromação e vamu começar essa baixaria :smiley:
 
 <!--more-->
 
@@ -81,7 +81,7 @@ Vamos para o exemplo :smile:
 
 ## Hello World!
 
-Como sempre, o Hello World básico :D\\
+Como sempre, o Hello World básico :smiley:\\
 Este Hello World será bem simples, ele abre apenas uma janela com o
 título "Hello World" e depois de 3 segundos se fecha. Eu apruveitei que a SFML
 segue os novos paranauê do C++ (C++11) e deixe o bixo bem simples. Veja só:
@@ -139,4 +139,4 @@ ver, eu nem precisa escrever essa série, pois já tem documentação boa
 disponível, mas como eu não tenho nada o que fazer, escrever pode ser um bom
 passa-tempo :smile:\\
 No próximo post vou falar sobre cada um dos módulo da SFML,
-então inté lá :D
+então inté lá :smiley:

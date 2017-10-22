@@ -12,7 +12,7 @@ _Scrapy_!
 
 -- Puts, só fala sobre Pitão. É Pitão isso, é Pitão aquilo...
 
-_Python_ é foda pra fazer coisas inúteis e por isso gosto de falar sobre ele :D
+_Python_ é foda pra fazer coisas inúteis e por isso gosto de falar sobre ele :smiley:
 
 -- Certo... e o zôtro lixo aí?
 
@@ -42,7 +42,7 @@ versões diferentes das dependência. Aí meu jovi o pip dexa você na mão.
 
 -- EU! O
 _[Virtualenv](https://virtualenv.readthedocs.org/en/latest/)_!
-:D
+:smiley:
 
 -- E o que C pode fazer pureu?
 
@@ -72,7 +72,7 @@ _Web_, outro para _Desktop_, ou um só para o projeto da padaria do seu Manél.
 -- Então C vai mostrar alguma coisa com esses troço e usando esse tal de
 _Scrapy_?
 
-Isso mesmo :D\\
+Isso mesmo :smiley:\\
 Saca azidea
 
 ## Fuçando o conteúdo de uma página com _Scrapy_
@@ -80,13 +80,13 @@ Saca azidea
 As vezes você tá passeando pelas interwebis e se acha no meio de uma
 tarefa repetitiva. Você para e pensa: "carai, se eu soubesse fazer alguma
 gambiarra que pegasse esse conteúdo do site e fizesse isso...". Isso meus
-abiguinhos é o que o _[Scrapy](http://scrapy.org/)_ faz :D
+abiguinhos é o que o _[Scrapy](http://scrapy.org/)_ faz :smiley:
 
 -- Éé... e?
 
 Oxi, só isso mesmo. O _Scrapy_ deixa você extrair conteúdo de páginas web de
 forma simples para você se preocupar com o que interessa. No caso, merda
-nenhuma :D
+nenhuma :smiley:
 
 -- que merda :expressionless:
 
@@ -115,7 +115,7 @@ Fabianilson começou a fazer um autoavisêitor de novos vídeos no XNXX.
 
 Como programador Pitão que já tinha a mão calejada de tanto pegar na cobra,
 digo em código _Python_. Em pouco tempo ele criou um ambiente virtual
-(virtualenv venv) para o novo projeto e começou a putaria. (iiiIIIih! :D)\\
+(virtualenv venv) para o novo projeto e começou a putaria. (iiiIIIih! :smiley:)\\
 Mandou o pip instalar o _Scrapy_ e escreveu incríveis 40 linhas de código Pitão.\\
 O script acessava o XNXX, pegava o título, thumbnails, urls e por aí vai. Tudo
 numa jogada de cabelo. Fabianilson, orgulhoso do seu feito, me mandou o script
@@ -133,4 +133,4 @@ No post lixo de hoje vimos que:
   * O pip é um gerenciador de dependêcia, assim como todos os outros por aí, e
     que é a putinha do _Virtualenv_;
   * Fabianilson deve ter ido dormir de côro quente por ter melado o computador;
-  * e que Pitão é perfeito para fazer coisas inúteis :D
+  * e que Pitão é perfeito para fazer coisas inúteis :smiley:
