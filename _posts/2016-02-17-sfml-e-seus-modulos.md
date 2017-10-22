@@ -178,7 +178,7 @@ Efeito só se for de audio 3D, qualquer outro é por sua conta :laughing:\\
 E por isso não tenho nada muito "que lôco meu" para falar desse módulo, já que
 ele só serve pra mexer com barulho. Quando eu for falar sobre esse módulo, eu
 coloco alguns paranauês que dá pra fazer com ele, mas por enquanto bora pro
-próximo Lombardi xD
+próximo Lombardi :laughing:
 
 ## Network
 

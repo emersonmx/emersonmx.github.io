@@ -16,6 +16,6 @@ Segue o link pra download :smiley:
 [Baixar Tetris lixo feito com
 SFML](https://github.com/emersonmx/tetris-sfml/releases/download/v1.0/Tetris-1.0.zip)
 
-Segue repositório do projeto xD
+Segue repositório do projeto :laughing:
 
 [Github](https://github.com/emersonmx/tetris-sfml)
