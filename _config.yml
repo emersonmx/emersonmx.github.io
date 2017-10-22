@@ -47,42 +47,6 @@ paginate_path: '/page:num/'
 date_format: '%Y-%m-%d %H:%M'
 excerpt_separator: '<!--more-->'
 
-# Categories and Tags info
-category_list: &category_list
-  - name: 'Engenharia de Software'
-    value: engenharia-de-software
-  - name: 'Programação'
-    value: programacao
-  - name: 'Projetos'
-    value: projetos
-  - name: 'RNG'
-    value: rng
-  - name: 'SFML Series'
-    value: sfml-series
-tag_list: &tag_list
-  - name: Box2D
-    value: box2d
-  - name: C
-    value: c
-  - name: C++
-    value: cpp
-  - name: Curiosidades
-    value: curiosidades
-  - name: Dicas
-    value: dicas
-  - name: PHP
-    value: php
-  - name: Python
-    value: python
-  - name: RNG
-    value: rng
-  - name: Série
-    value: serie
-  - name: SFML
-    value: sfml
-  - name: Vim
-    value: vim
-
 # Prose settings
 prose:
   siteurl: 'http://www.emersonmx.com.br/'
@@ -139,13 +103,45 @@ prose:
           element: select
           label: Categoria
           placeholder: Seleciona a categoria
-          options: *category_list
+          options:
+            - name: Engenharia de Software
+              value: engenharia-de-software
+            - name: Programação
+              value: programacao
+            - name: Projetos
+              value: projetos
+            - name: RNG
+              value: rng
+            - name: SFML Series
+              value: sfml-series
       - name: tags
         field:
           element: multiselect
           label: Tags
           placeholder: Selecione as tags
-          options: *tag_list
+          options:
+            - name: Box2D
+              value: box2d
+            - name: C
+              value: c
+            - name: CPP
+              value: cpp
+            - name: Curiosidades
+              value: curiosidades
+            - name: Dicas
+              value: dicas
+            - name: PHP
+              value: php
+            - name: Python
+              value: python
+            - name: RNG
+              value: rng
+            - name: Série
+              value: serie
+            - name: SFML
+              value: sfml
+            - name: Vim
+              value: vim
 
 # Build settings
 markdown: kramdown
