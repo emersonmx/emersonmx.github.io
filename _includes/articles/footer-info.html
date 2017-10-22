@@ -7,12 +7,15 @@
     </span>
     <span class="item">
         <i class="fa fa-folder-open-o" aria-hidden="true"></i>
-        {{ site.data.categories[include.post.category] }}
+        <a href="{% link _pages/categories.html %}#{{ include.post.category }}">
+            {{ site.data.categories[include.post.category] }}
+        </a>
     </span>
     <span class="item">
         <i class="fa fa-tags" aria-hidden="true"></i>
         {% for tag in include.post.tags %}
-            {{ site.data.tags[tag] }}{% unless forloop.last %}, {% endunless %}
+        <a href="{% link _pages/tags.html %}#{{ tag }}">
+            {{ site.data.tags[tag] }}</a>{% unless forloop.last %}, {% endunless %}
         {% endfor %}
     </span>
 </div>

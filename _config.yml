@@ -40,6 +40,7 @@ defaults:
       path: _pages
     values:
       layout: page
+      show_in_navbar: true
 
 permalink: /:categories/:title/
 paginate: 5
