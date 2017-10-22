@@ -86,6 +86,8 @@ Este Hello World será bem simples, ele abre apenas uma janela com o
 título "Hello World" e depois de 3 segundos se fecha. Eu apruveitei que a SFML
 segue os novos paranauê do C++ (C++11) e deixe o bixo bem simples. Veja só:
 
+<script src="https://gist.github.com/emersonmx/31004a311efb2876d187.js"></script>
+
 -- Mas... mas... esse código não limpa a memória direito *mimimi de programador
 C*
 
