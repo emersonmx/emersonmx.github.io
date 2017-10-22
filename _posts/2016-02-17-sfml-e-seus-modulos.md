@@ -86,7 +86,7 @@ de _Strings_ e classes de vetores com duas e três dimensões.
 Pode ter certeza que sim. Então sempre lembre de adicionar o módulo _System_
 por último :)
 
-Continuando os paranauê sobre o módulo _System...\\
+Continuando os paranauê sobre o módulo _System_...\\
 _Eu não posso deixar de notar que a parte dos Dreds
 
 ![Dreds]({{ site.baseurl }}{% link /files/2016/02/talk-like-a-pirate-day-jack-sparrow.jpg %})
