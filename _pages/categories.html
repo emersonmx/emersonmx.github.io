@@ -11,7 +11,8 @@ permalink: /categorias/
     <a id="{{ slug }}" class="anchor"></a>
     <h3>{{ site.data.categories[slug] }}</h2>
     <ul>
-    {% for post in site.categories[slug] %}
+    {% assign posts = site.categories[slug] | sort: 'date' %}
+    {% for post in posts %}
     <li>
         <a href="{{ post.url | relative_url }}" target="_blank">{{ post.title }}</a>
     </li>

@@ -11,7 +11,8 @@ permalink: /tags/
     <a id="{{ slug }}" class="anchor"></a>
     <h3>{{ site.data.tags[slug] }}</h2>
     <ul>
-    {% for post in site.tags[slug] %}
+    {% assign posts = site.tags[slug] | sort: 'date' %}
+    {% for post in posts %}
         <li>
             <a href="{{ post.url | relative_url }}" target="_blank">{{ post.title }}</a>
         </li>
