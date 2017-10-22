@@ -143,11 +143,11 @@ que permite você colar os frufru na tela sem muito esforço.
 
 -- Tipo _Post-its_ de joaninhas? O,O
 
-É... tipo isso aí ._.\\
+É... tipo isso aí .\_.\\
 Só que para colar seus _Post-its_ de joaninha você vai precisar criar uma
 janela diferente da que você criou com o módulo _Window_. Ela é especializada
 no desenho de objetos do módulos _Graphics_ e qualquer outro que você venha
-criar usando as ferramentes que o módulo disponibiliza. O módulo é formado por:
+criar usando as ferramentas que o módulo disponibiliza. O módulo é formado por:
 formas geométricas, textos, imagens/texturas, _Sprites_ (imagem com posição,
 rotação e tamanho), array de vértices (desenho livre), camera e _Shaders_!
 
@@ -174,7 +174,7 @@ módulo faz. Isso e gravar áudio.
 
 -- Oxi, só isso? Nenhum efeito nem nada? O,o
 
-Efeito só se for de audio 3D, qualquer outro é por sua conta :lol:\\
+Efeito só se for de audio 3D, qualquer outro é por sua conta :laughing:\\
 E por isso não tenho nada muito "que lôco meu" para falar desse módulo, já que
 ele só serve pra mexer com barulho. Quando eu for falar sobre esse módulo, eu
 coloco alguns paranauês que dá pra fazer com ele, mas por enquanto bora pro
@@ -193,7 +193,7 @@ requisições HTTP e transferir arquivos via FTP.
 
 -- Hahahaha! Já estou com meus planos para criar o próximo MMORPG >:B
 
-É vai lá, quando terminar me chama que eu quero jogar ._.\\
+É vai lá, quando terminar me chama que eu quero jogar :expressionless:\\
 Por fim, esse é outro módulo que também não tem muito o que falar e que vou
 deixar para mostrar o que dá pra fazer com ele em um post futuro.
 
