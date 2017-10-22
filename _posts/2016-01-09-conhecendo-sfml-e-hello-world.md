@@ -137,5 +137,6 @@ repositório do GitHub](https://github.com/SFML/SFML/wiki). Lá
 tem uns paranauê muito loco e recomendo você favoritar esses links. Se você for
 ver, eu nem precisa escrever essa série, pois já tem documentação boa
 disponível, mas como eu não tenho nada o que fazer, escrever pode ser um bom
-passa-tempo :)\\ No próximo post vou falar sobre cada um dos módulo da SFML,
+passa-tempo :)\\
+No próximo post vou falar sobre cada um dos módulo da SFML,
 então inté lá :D
