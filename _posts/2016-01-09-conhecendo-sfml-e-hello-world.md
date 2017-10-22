@@ -57,7 +57,7 @@ fazer uma gambiarra não precisa de criatividade não? :)
 Continuando :)
 
 A SFML é formada por cinco componentes: Sistema, Janela, Gráfico, Áudio e
-Rede (sim aquelas que você pendura no torno ._.). Ela roda no Windows, Linux,
+Rede (sim aquelas que você pendura no torno :expressionless:). Ela roda no Windows, Linux,
 Mac OS X e futuramente Android e iOS. E caso você não goste de C++ você pode
 programar em outras linguagens, como: C, .Net, Java, Go, Ruby, Python e [várias
 outras](http://www.sfml-dev.org/download/bindings.php).

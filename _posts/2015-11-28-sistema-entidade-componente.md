@@ -29,12 +29,12 @@ gato preto. Por enquanto saiba que tudo se resume a código flexível. Se quiser
 mais detalhes [veja a apresentação de Scott
 Bilas](http://gamedevs.org/files/data-driven-game-object-system.pdf).
 
--- Sim… código flexível… tipo o balançar do rabo de um gato… sei tendi tutô ._.
+-- Sim… código flexível… tipo o balançar do rabo de um gato… sei tendi tutô :expressionless:
 
 Resumindo... É mais como escrever um código uma vez e não precisar recompilar o
 jogo toda vez que um _Designer_ achar que um personagem tá 10px pra direita e
 mandar o programador arrumar. Daí depois de tanto muído é decidido que era
-melhor deixar do jeito que tava e você tem que arrumar de novo ._.
+melhor deixar do jeito que tava e você tem que arrumar de novo :expressionless:
 
 Com essa ideia o Sistema só depende dos dados (Entidades e Componentes) para
 funcionar. Isso permite criar arquivos de configuração que o _Designer_ pode
@@ -43,7 +43,7 @@ lugar errado.
 
 -- Rapai qui maravilha, menos trabai pa eu o,o
 
-É menos trabalho… é sei ._.\\
+É menos trabalho… é sei :expressionless:\\
 Uma coisa que você tem que saber sobre a área da programação, é que para tudo o
 que você fizer, SEMPRE vai ser preciso escolher entre uma situação ruim e uma
 pior. Exemplo: Quando você vai dormir e só tem um lençol pequeno pra se inrolá.
@@ -58,7 +58,7 @@ Claro que fica, mas já pensou no trabalho que é implementa do zero? Tudo
 bunitinho com boas práticas de programação, evitando ao máximo fazer
 gambiarras?
 
--- Carai, deve ser muito foda então. Mió deixar queto ._.
+-- Carai, deve ser muito foda então. Mió deixar queto :expressionless:
 
 É jovi, se você implementar um SEC do zero você <del>nunca vai
 terminar</del> vai demorar muito para fazer seu joguinho. Caso queira realmente
@@ -136,7 +136,7 @@ mãos, o Sistema vai pegar a posição e a imagem de cada entidade para então
 desenhá-las na tela. Depois do processamento das entidades o Sistema aguarda
 até a próxima vez que for chamado. Simples e mortal :)
 
--- É, nadis de muito complicado aqui. Sistemas = lógica de negócio ._.
+-- É, nadis de muito complicado aqui. Sistemas = lógica de negócio :expressionless:
 
 Isso!\\
 E por último temos o _ComponentType_. Ele só é usado para identificar o tipo do
@@ -155,7 +155,7 @@ motivos? O _EntityManager_ está levando muito tempo para realizar a consulta
 das entidades e seria melhor fazer _Cache_ das entidades para ver se
 agiliza alguma coisa.
 
--- Essa implementação é realmente necessária? ._.
+-- Essa implementação é realmente necessária? :expressionless:
 
 Só se você estiver fazendo um jogo muito grande, ou se estiver desenvolvendo
 para celulares não tão novos. De qualquer forma, tenha isso em mente.
@@ -173,7 +173,7 @@ mesmo não acho algo muito inteligente usar threads para essas coisas, mas caso
 o jogo esteja muito lento pode ser o jeito adicionar essa complexidade ao
 código.
 
--- ._.
+-- :expressionless:
 
 Normalmente os problemas estão relacionados com desempenho e redução de
 gambiarras do código. Estruturas de dados mais rápidas, fazer cache

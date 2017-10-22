@@ -21,7 +21,7 @@ Para resolver isso é preciso criar um arquivo de tags a partir de algum código
 
 -- Mas... onde tem o código da biblioteca base do PHP? D:
 
-É... esse é um problema ._.\\
+É... esse é um problema :expressionless:\\
 Para resolver isso eu peguei os stubs do PHP que vem junto com o feijão de rede
 (Netbeans) e joguei num repositório maroto. Se quiser usar, você pode clona meu
 repositório de [Stubs do

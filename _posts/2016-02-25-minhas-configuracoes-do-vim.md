@@ -15,9 +15,9 @@ Digaê mundiça vimer!
 
 -- Purquê djabo você usa esse troço de mais de 40 anos de idade?!
 
-Num sei, só sei que foi assim ._.\\
+Num sei, só sei que foi assim :expressionless:\\
 Eu uso ele desde a faculdade e naquele tempo não tinha esses editores (Sublime)
-que a galera da zuêra usa hoje em dia. Então... eh ._.
+que a galera da zuêra usa hoje em dia. Então... eh :expressionless:
 
 Bem, vamos ao que interessa.
 
@@ -60,7 +60,7 @@ Veja abaixo a lista dos que eu tô/tava usando quando escrevi este post :b
   * [nerdtree ](https://github.com/scrooloose/nerdtree)
     Explorador de arquivos
   * [HTML-AutoCloseTag ](https://github.com/vim-scripts/HTML-AutoCloseTag)
-    O nome já diz ._.
+    O nome já diz :expressionless:
   * [vim-css3-syntax ](https://github.com/hail2u/vim-css3-syntax)
     Suporte para CSS3
   * [YouCompleteMe ](https://github.com/Valloric/YouCompleteMe)

@@ -42,12 +42,12 @@ O motivo é simples. O módulo _Window_ depende do _System_, assim como todos os
 outros módulos da biblioteca. Portanto, uma aplicação SFML deve ter, no mínimo,
 o módulo _System_ para que seja compilada.
 
--- Sei gambiarra do carai ._.
+-- Sei gambiarra do carai :expressionless:
 
 Gambiarra não, controle meu rapaz! Se eu só preciso de alguns módulos, então
 praquê linkar todos?
 
--- É né... fazer o que... ._.
+-- É né... fazer o que... :expressionless:
 
 ... -.-\\
 Certo, o único problema que você vai ter é saber _quem depende de quem_.\\
@@ -116,7 +116,7 @@ SFML]({{ site.baseurl }}{% link /files/2016/02/blank_window.png %})
 
 Uma tela preta from hell! @>@
 
--- ._.
+-- :expressionless:
 
 Calma não é só uma tela, é uma tela com um contexto _OpenGL_! Você pode
 desenhar coisas em 3D nela! :D
@@ -199,7 +199,7 @@ deixar para mostrar o que dá pra fazer com ele em um post futuro.
 
 ## 3C
 
--- Óia, que resumo merda ._.
+-- Óia, que resumo merda :expressionless:
 
 Claro né, é um resumo do que tem no [tutorial do site oficial da
 SFML](http://www.sfml-dev.org/tutorials/2.3/). Quando tiver

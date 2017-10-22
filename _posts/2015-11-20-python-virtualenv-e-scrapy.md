@@ -32,7 +32,7 @@ troço que gerencia as dependências dos projetos. E o nome desse troço é
 
 Kalmaaan carai! Eu vou falar ainda.
 
--- ... tô karmo ._.
+-- ... tô karmo :expressionless:
 
 O pip facilita sua vida de programador priguiçoso ao gerenciar as dependências
 dos seus projetos lixo. O problema é quando você tem vários projetos com
@@ -55,7 +55,7 @@ via pip.
 
 -- Aí, para _Virtualenv_, assim todo mundo vai ficar sabendo do nosso chamêgo...
 
-Oookeey ._.\\
+Oookeey :expressionless:\\
 Cabou o fuzuê, agora vaza, pois vocês já falaram demais!\\
 \*pei\* (kill -9 virtualenv)\\
 \*pei\* (kill -9 pip)\\
@@ -88,7 +88,7 @@ Oxi, só isso mesmo. O _Scrapy_ deixa você extrair conteúdo de páginas web de
 forma simples para você se preocupar com o que interessa. No caso, merda
 nenhuma :D
 
--- que merda ._.
+-- que merda :expressionless:
 
 Não sério, deixe azideia fluir e sinta o nóia que o _Scrapy_ tem a
 oferecer... :mrgreen:

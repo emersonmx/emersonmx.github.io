@@ -11,7 +11,7 @@ tags:
 Êta carai! Hoje trago para vocêses um jogo de pong implementado em SFML e um
 pouco de C++11. Quase que não terminava esse projeto besta. Eu comecei ele
 em dezembro de 2015 e só terminei agora em maio de 2016. Pense num priguiça dos
-cachorros ._.
+cachorros :expressionless:
 
 Para quem conhece o jogo, sabe que ele é formado por dois taco, uma bola, duas
 paredes e muita pegação :D\\
