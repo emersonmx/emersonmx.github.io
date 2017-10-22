@@ -186,7 +186,7 @@ Sabe aquele momento da sua vida que você acha que vai fazer um MMO assim do
 nada? Pois é... isso aqui é só a pontinha da piroca de Kid Bengala. Fazer uma
 aplicação comunicar com várias outras via rede é algo bem interessantes, mas só
 até você implementar um chat entre vários clientes e vê o cabaré que fica (the
-horror D:).
+horror :scream:).
 
 Em resumo, este módulo permite criar _Sockets_ (TCP e UDP), realizar
 requisições HTTP e transferir arquivos via FTP.

@@ -19,7 +19,7 @@ abre a documentação, em algumas linguagem, quando você dá `Ctrl-Clique`,
 
 Para resolver isso é preciso criar um arquivo de tags a partir de algum código.
 
--- Mas... onde tem o código da biblioteca base do PHP? D:
+-- Mas... onde tem o código da biblioteca base do PHP? :scream:
 
 É... esse é um problema :expressionless:\\
 Para resolver isso eu peguei os stubs do PHP que vem junto com o feijão de rede
