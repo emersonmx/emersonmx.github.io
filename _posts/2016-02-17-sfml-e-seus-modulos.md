@@ -99,7 +99,9 @@ _Streams_ de dados. Eu ainda não fiz nada exótico com isso na SFML, então ac
 que isso seja pra coisas bem específicas como algo do nível do tutorial de
 _Hackerman_.
 
-https://www.youtube.com/watch?v=KEkrWRHCDQU
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KEkrWRHCDQU" allowfullscreen></iframe>
+</div>
 
 O restante das classes e funcionalidades você vai usar, sem nem se tocar que
 está usando, quando precisar colocar desenhos bunitinhos na tela.
