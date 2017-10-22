@@ -191,7 +191,7 @@ horror :scream:).
 Em resumo, este módulo permite criar _Sockets_ (TCP e UDP), realizar
 requisições HTTP e transferir arquivos via FTP.
 
--- Hahahaha! Já estou com meus planos para criar o próximo MMORPG >:B
+-- Hahahaha! Já estou com meus planos para criar o próximo MMORPG :smiling_imp:
 
 É vai lá, quando terminar me chama que eu quero jogar :expressionless:\\
 Por fim, esse é outro módulo que também não tem muito o que falar e que vou
