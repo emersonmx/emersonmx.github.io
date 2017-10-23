@@ -29,23 +29,24 @@ Antes de falar do uso é preciso entender uma coisa. A classe `sf::Event` é uma
 _union_. Vulgo: POG, Gambiarra, eu vi você implementando herança em C usando
 _union_.
 
-Na explicação mais completa, a classe `sf::Event` é formada por um atributo
-_type_ e a _union_ que é formada por todos os tipos de evento. E como é de se
-esperar do C, você pode ter um evento do tipo _Keyboard_ e acessar o evento do
-_Mouse_. Claro, nada garante que vai funcionar :stuck_out_tongue:\\
-Pois a _union_ compartilha a memória com os outros tipos. No fim, se você
-acessar apenas os dados do tipo correto, que é definido no atributo _type_,
-não vai ter problemas :smile:.\\
+Zueira a parte.\\
+Na explicação mais completa, a classe `sf::Event` é formada por
+um atributo _type_ e a _union_ que é composta por todos os tipos de evento. E
+como é de se esperar do C, você pode ter um evento do tipo _Keyboard_ e acessar
+o evento do _Mouse_. Claro, nada garante que vai funcionar, pois a _union_
+compartilha a memória com os outros tipos :stuck_out_tongue:\\
+No fim, se você acessar apenas os dados do tipo correto, que é definido no
+atributo _type_, não vai ter problema :smile:.\\
 Agora que foi avisado, vamo seguindo!
 
 -- Porra, que POG da bixiga! Você disse que a SFML era Orientada a Objetos e não
 a gambiarras!
 
-Certamente, essa é uma parte que não é OO, mas ainda assim é aceitável, pois
+Certamente essa é uma parte que não é OO, mas ainda assim é aceitável, pois
 é simple de implementar :laughing:.\\
 E não é algo incomum, a [Godot] usa esse formato também.
 
-Uma das forma mais comum do sudo da [sf::Event] é para capturar o evento de
+Uma das forma mais comum do uso da `sf::Event` é para capturar o evento de
 fechar da janela. Segue um trecho de código.
 
 ```cpp
@@ -59,11 +60,13 @@ while (running) {
     }
     // Aqui vai a lógica e o desenhos das coisas
 }
+// Finaliza o jogo
 ```
 
 -- É até que é simples :expressionless:
 
-É, nada de instance of pra lá e pra cá :grinning:
+É, nada de _instanceof_ pra lá e pra cá :grinning:\\
+Continuando...
 
 Atualmente a SFML permite capturar os seguintes eventos: Mouse, Teclado,
 Controle, Toques, Sensores e Eventos da janela.  Dessas categorias de eventos,
@@ -90,9 +93,9 @@ ou controle a qualquer momento.
 
 -- Oxi e num é a mesma coisa dos eventos não? O,o
 
-Não. Quando se usa `sf::Event` é preciso de um `window.pollEvent(event)`.
-No caso da entrada global, você pode fazer apenas isto (copiado e colado dos
-tutoriais da SFML :grin:).
+Não. Quando se usa `sf::Event` não há necessidade de um
+`window.pollEvent(event)`. No caso da entrada global, você pode fazer apenas
+isto (copiado e colado dos tutoriais da SFML :grin:).
 
 ```cpp
 if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
@@ -103,9 +106,8 @@ if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 ```
 
 Isso lê o estado do teclado diretamente, até se a janela não estiver em foco.
-Isso quer dizer que o personagem pode se mover caso a tela esteja minimizada
-:joy:\\
-Nada que verificar se a janela está ativa não resolva.
+Isso quer dizer que o personagem pode se mover caso a tela esteja minimizada.
+Nada que verificar se a janela está ativa não resolva :joy:.
 
 Para mais detalhes, ver
 o [tutorial oficial](https://www.sfml-dev.org/tutorials/2.4/window-inputs.php).
