@@ -1,0 +1,27 @@
+---
+title: 'Arquivo'
+date: 2017-10-22 16:24:00-03:00
+show_in_navbar: false
+permalink: /arquivo/
+---
+
+<div class="archive-list">
+    {% for post in site.posts %}
+        {% assign currentDate = post.date | date: "%Y" %}
+        {% if currentDate != myDate %}
+            {% unless forloop.first %}</ul>{% endunless %}
+        <h2>{{ currentDate }}</h2>
+        <ul>
+            {% assign myDate = currentDate %}
+        {% endif %}
+
+        <li>
+            <a href="{{ post.url }}">
+                <span>
+                    {% include date-for-humans.html date=post.date %}
+                </span> - {{ post.title }}
+            </a>
+        </li>
+        {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
+</div>
