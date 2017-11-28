@@ -9,7 +9,7 @@ tags:
 ---
 
 [Como eu falei no post do fim de 2015]({{ site.baseurl
-}}{% post_url 2015-12-30-coisas-inuteis-para-2016 %}), eu resolvi fazer algo de
+}}{% post_url 2015/2015-12-30-coisas-inuteis-para-2016 %}), eu resolvi fazer algo de
 futuro para esse ano de 2016. E pra começar a fuleragi eu vou logo explicando o
 que vai ser tratado nessa ruma de post seguidos.
 
@@ -29,7 +29,7 @@ biblioteca](http://www.sfml-dev.org/faq.php#grl-learn). E
 mais uma vez, isso é só uma recomendação :smile:
 
 [Anteriormente eu já postei um "Relou Uôrdi"]({{ site.baseurl
-}}{% post_url 2015-11-06-um-relou-uordi-com-sfml-e-cmake %}), mas
+}}{% post_url 2015/2015-11-06-um-relou-uordi-com-sfml-e-cmake %}), mas
 diferente deste, aquele era mais focado na zueira e na apresentação da
 biblioteca. Esta série será mais séria (Saitama aprova).
 

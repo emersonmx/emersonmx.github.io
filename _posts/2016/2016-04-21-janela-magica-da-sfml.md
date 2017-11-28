@@ -18,7 +18,7 @@ Então, bora lá? :smiley:
 <!--more-->
 
 [Vimos que o módulo
-_Window_]({{ site.baseurl }}{% post_url 2016-02-17-sfml-e-seus-modulos %})
+_Window_]({{ site.baseurl }}{% post_url 2016/2016-02-17-sfml-e-seus-modulos %})
 define uma janela simples sem nenhuma firula que você pode usar para fazer seus
 paranauêses com _OpenGL_. Porém há uma versão mágica, cheia de glitter e
 frufrus. Ela é a _RenderWindow_.
