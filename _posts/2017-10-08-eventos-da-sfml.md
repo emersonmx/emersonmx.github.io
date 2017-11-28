@@ -6,9 +6,9 @@ tags:
   - cpp
   - serie
   - sfml
-image: /files/eventos-sfml.png
+image: /files/2017/10/eventos-sfml.png
 ---
-![eventos-sfml.png]({{site.baseurl}}/files/eventos-sfml.png)
+![eventos-sfml.png]({{site.baseurl}}/files/2017/10/eventos-sfml.png)
 
 Até então, com o que foi visto, só conseguiriamos fazer animações na SFML.
 Para adicionar interatividade ao jogo seria preciso injetar alucinógenos.
