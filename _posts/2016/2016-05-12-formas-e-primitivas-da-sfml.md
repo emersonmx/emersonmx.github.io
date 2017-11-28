@@ -9,7 +9,7 @@ tags:
 ---
 
 Yaê cambada de doido! Tudo de boina? Depois do [post do milênio
-passado]({{ site.baseurl }}{% post_url 2016/2016-04-21-janela-magica-da-sfml %}) você
+passado]({{ site.baseurl }}{% post_url 2016-04-21-janela-magica-da-sfml %}) você
 deve tá se perguntando como usar a janela mágica. Portanto,  neste post vamos
 dar utilidade a essa janela ao usar as formas e primitivas da SFML.
 

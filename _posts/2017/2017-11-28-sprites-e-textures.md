@@ -34,7 +34,7 @@ verdade uma textura colada numa retângulo.
 É... não. Nesse caso, textura é apenas outro nome para imagem, porém com o único
 propósito de ser colada numa entidade 2D. Uma entidade pode ser qualquer uma das
 formas que eu falei no post sobre
-[Formas e primitivas]({{ site.baseurl }}{% post_url 2016/2016-05-12-formas-e-primitivas-da-sfml %}).
+[Formas e primitivas]({{ site.baseurl }}{% post_url 2016-05-12-formas-e-primitivas-da-sfml %}).
 
 -- Certo... então como eu uso! Quero fazer meu joguinhos com ibagens lecais. :smiley:
 
