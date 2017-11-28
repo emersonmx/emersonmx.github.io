@@ -1,5 +1,5 @@
 ---
-date: 2017-10-22 21:50:58+00:00
+date: 2017-10-22 21:50:58-03:00
 title: Eventos da SFML
 category: sfml-series
 tags:

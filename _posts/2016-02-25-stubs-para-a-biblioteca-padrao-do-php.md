@@ -1,6 +1,6 @@
 ---
 title: 'Stubs para a biblioteca padrão do PHP'
-date: 2016-02-25 16:18:52+00:00
+date: 2016-02-25 16:18:52-03:00
 category: programacao
 tags:
   - dicas

@@ -1,6 +1,6 @@
 ---
 title: 'Minhas configurações do Vim'
-date: 2016-02-25 23:55:45+00:00
+date: 2016-02-25 23:55:45-03:00
 category: rng
 tags:
   - rng

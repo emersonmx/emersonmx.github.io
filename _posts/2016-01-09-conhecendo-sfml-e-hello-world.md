@@ -1,6 +1,6 @@
 ---
 title: 'Conhecendo a SFML e Hello World!'
-date: 2016-01-09 23:28:22+00:00
+date: 2016-01-09 23:28:22-03:00
 category: sfml-series
 tags:
   - cpp

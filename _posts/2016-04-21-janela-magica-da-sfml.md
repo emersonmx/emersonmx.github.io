@@ -1,6 +1,6 @@
 ---
 title: 'A janela mágica da SFML'
-date: 2016-04-21 15:00:20+00:00
+date: 2016-04-21 15:00:20-03:00
 category: sfml-series
 tags:
   - cpp

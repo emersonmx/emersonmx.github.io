@@ -1,6 +1,6 @@
 ---
 title: 'Python, Virtualenv e Scrapy!'
-date: 2015-11-20 00:14:52+00:00
+date: 2015-11-20 00:14:52-03:00
 category: programacao
 tags:
   - python
