@@ -9,7 +9,7 @@ permalink: /categorias/
 {% for category in site.categories %}
     {% capture slug %}{{ category | first }}{% endcapture %}
     <a id="{{ slug }}" class="anchor"></a>
-    <h3>{{ site.data.categories[slug] }}</h2>
+    <h2>{{ site.data.categories[slug] }}</h2>
     <ul>
     {% assign posts = site.categories[slug] | sort: 'date' %}
     {% for post in posts %}
