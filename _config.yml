@@ -25,6 +25,8 @@ social:
     username: emersonmx
   github:
     username: emersonmx
+  disqus:
+    shortname: emersonmx
 facebook:
   app_id: 1676678679285537
 defaults:
@@ -36,6 +38,7 @@ defaults:
       path: _posts
     values:
       layout: post
+      comments: true
   - scope:
       path: _pages
     values:
