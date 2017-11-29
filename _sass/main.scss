@@ -124,6 +124,10 @@ article {
     }
 }
 
+#disqus_thread {
+    margin-top: 20px;
+}
+
 @media (max-width: $screen-xs-max) {
     header .navbar {
         .navbar-brand.title {
