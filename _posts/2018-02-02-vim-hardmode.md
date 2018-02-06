@@ -22,7 +22,9 @@ caractere, como as setas e as teclas hjkl. E pra isso tempos um plugin show!
 Besteeeira. Esse é um plugin que vale a pena ter :smile:
 
 Você pode baixar ele aqui [VIM: Hard Mode][vim-hardmode]. Eu achei ele num
-[artigo do vimcasts.org][vimcasts].
+[artigo do vimcasts.org][vimcasts]. E caso não goste tem o
+[Hardtime][vim-hardtime].
 
 [vim-hardmode]: https://github.com/wikitopian/hardmode
+[vim-hardtime]: https://github.com/takac/vim-hardtime
 [vimcasts]: http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/
