@@ -1,5 +1,5 @@
 ---
-date: 2018-02-10 23:37:29-03:00
+date: 2018-02-11 02:25:29-03:00
 title: Andando na Grid
 category: rng
 tags:
