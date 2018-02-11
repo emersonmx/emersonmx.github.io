@@ -32,11 +32,10 @@ posição. Caso pudesse, o jogador moveria para a posição. Na implementação 
 deixei a posição antiga e a nova marcada como ocupada para simular o movimento
 que ocorre nos jogos de Pokemon para GBC :grin:
 
-Até agora eu tinha um quadrado pôdi andando pela tela de forma travada. Eu
-queria que ele deslisasse até a nova posição, daí eu voltei pro exemplo do
-GDquest. Depois de sapricar algumas variáveis o jogador já estava deslizando
-bunitamente pela tela. No fim ainda tinha alguns problemas, mas nada muito
-trêtoso.
+Até agora eu tinha um quadrado andando pela tela de forma travada. Eu queria
+que ele deslisasse até a nova posição, daí eu voltei pro exemplo do GDquest.
+Depois de sapricar algumas variáveis o jogador já estava deslizando bunitamente
+pela tela. No fim ainda tinha alguns problemas, mas nada muito trêtoso.
 
 Pra mim, o movimento tá quase igual ao de Pokemon. Só faltou o toque de leve
 que muda a direção sem se movimentar. Vou ver se acho outro xique-xique pra se
