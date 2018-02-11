@@ -26,7 +26,7 @@ componente e não um nó pai. Daí tirei o jogador de dentro e criei uma
 referência pra grid via script no nó principal (tive que usar o `_enter_tree()`
 pra isso). Assim o jogador teria acesso a Grid via `game.grid`.
 
-Eu usei a Grid como um array para tratar colisões. Assim, sempre que o jogador
+A única função da Grid era tratar colisões. Assim, sempre que o jogador
 precisava se movimentar ele perguntava a Grid se o jogador podia ir para uma
 posição. Caso pudesse, o jogador moveria para a posição. Na implementação eu
 deixei a posição antiga e a nova marcada como ocupada para simular o movimento
