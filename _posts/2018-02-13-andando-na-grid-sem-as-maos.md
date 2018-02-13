@@ -6,7 +6,7 @@ tags:
   - godot
 ---
 
-Achei um novo xique-xique! Quer dizer... Voltei com um [novo exemplo][grid-nav-move]
+Achei um novo xiquexique! Quer dizer... Voltei com um [novo exemplo][grid-nav-move]
 de movimento na Grid. Só que sem ar mão! :smile:
 
 No [último post][andando-na-grid], eu coloquei pro jogador se mover pelo
@@ -44,7 +44,7 @@ pra enfiar no... Brincadeira :stuck_out_tongue:
 
 Isso é pra um protótipo de Tower Defense que estou pensando em fazer. E como eu
 queria que os inimigos andassem na Grid, eu resolvi fazer esses exemplos. Bom,
-vou ali ver se acho outros xique-xique. Se achar, eu escrevo algo por aqui.
+vou ali ver se acho outros xiquexiques. Se achar, eu escrevo algo por aqui.
 Fui.
 
 [andando-na-grid]: {{ site.baseurl }}{% post_url 2018-02-11-andando-na-grid %}

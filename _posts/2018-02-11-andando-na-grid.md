@@ -38,7 +38,7 @@ Depois de sapricar algumas variáveis o jogador já estava deslizando bunitament
 pela tela. No fim ainda tinha alguns problemas, mas nada muito trêtoso.
 
 Pra mim, o movimento tá quase igual ao de Pokemon. Só faltou o toque de leve
-que muda a direção sem se movimentar. Vou ver se acho outro xique-xique pra se
+que muda a direção sem se movimentar. Vou ver se acho outro xiquexique pra se
 coçar, pois esse foi até tranquilo :grin:
 
 [godot]: https://godotengine.org/
