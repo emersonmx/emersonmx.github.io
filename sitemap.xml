@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.emersonmx.dev/categories/</loc>
+    <loc>https://blog.emersonmx.dev/</loc>
+    <lastmod>2019-09-24T20:49:47-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.emersonmx.dev/</loc>
+    <loc>https://blog.emersonmx.dev/posts/my-first-post/</loc>
+    <lastmod>2019-09-24T20:49:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.emersonmx.dev/posts/</loc>
+    <lastmod>2019-09-24T20:49:47-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.emersonmx.dev/categories/</loc>
   </url>
   
   <url>
