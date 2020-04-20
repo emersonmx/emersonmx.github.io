@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Emerson MX</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Emerson MX</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2019 20:49:47 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 17:12:58 -0300</lastBuildDate>
     
 	<atom:link href="https://blog.emersonmx.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>My First Post</title>
       <link>https://blog.emersonmx.dev/posts/my-first-post/</link>
-      <pubDate>Tue, 24 Sep 2019 20:49:47 -0300</pubDate>
+      <pubDate>Mon, 20 Apr 2020 17:12:58 -0300</pubDate>
       
       <guid>https://blog.emersonmx.dev/posts/my-first-post/</guid>
       <description>Hello world! :D</description>
