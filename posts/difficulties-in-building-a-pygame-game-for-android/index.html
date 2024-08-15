@@ -1,0 +1,22 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><title>Difficulties in Building a Pygame Game for Android |
+Emerson MX</title><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet type=text/css href="/css/style.363f20acca8382e8016ecb2ae2807a2c8c3b8a8e700ba0124935581664700770.min.css"><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/manifest.json><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><script>(function(e,t,n,s,o){e[s]=e[s]||[],e[s].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var a=t.getElementsByTagName(n)[0],i=t.createElement(n),r=s!="dataLayer"?"&l="+s:"";i.async=!0,i.src="https://www.googletagmanager.com/gtm.js?id="+o+r,a.parentNode.insertBefore(i,a)})(window,document,"script","dataLayer","GTM-K2F66G4")</script></head><body class="flex flex-col h-screen font-mono text-gray-900"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2F66G4" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><header class="mt-3 mb-5"><div class=text-center><p class="text-4xl font-bold leading-none"><a href=/>Emerson MX</a></p><p class="text-sm italic text-gray-700">Developer Journal</p></div></header><main class="self-center w-full px-5 mb-auto max-w-screen-sm"><article class=mb-4><h1 class=text-2xl><a href=/posts/difficulties-in-building-a-pygame-game-for-android/>Difficulties in Building a Pygame Game for Android</a></h1><time datetime=2024-08-15T17:03:25-0300 class="text-xs text-gray-700">2024-08-15 17:03:25</time><p>Recently, I was taking an <a href=https://developer.android.com/courses>Android</a> course and got the urge to port a game I
+had made in <a href=https://www.python.org/>Python</a> to Android. It wasn't difficult to find articles on the
+subject, but one common theme was that to run Python on Android, you needed
+<a href=https://github.com/kivy/buildozer>Buildozer</a>. And so, my saga began.</p><p>I spent two days wrestling with Buildozer to generate an APK. On the first day,
+I decided to create a simple example to test the build. After encountering
+several errors, I realized it would be easier to run Buildozer in <a href=https://www.docker.com/>Docker</a>.
+Luckily, there was already a Dockerfile in the Buildozer project for this
+purpose. With a few adaptations, I had it up and running on my machine.</p><p>The next step was configuring Buildozer for the build, which led me to dive
+deep into <a href=https://www.docker.com/>Python for Android</a> (p4a). After spending a lot of time running
+builds, reading documentation, and analyzing error logs, I concluded that it
+would be better to create a p4a recipe for <a href=https://github.com/kivy/python-for-android>pygame-ce</a> and see how it
+worked.</p><p>In the end, the pygame-ce recipe worked, and the errors stopped. The next step
+was to see if the generated APK would run on Android. So, I opened the Android
+emulator, installed the APK, and... nothing. The game opened and then
+immediately closed. Checking the <a href=https://developer.android.com/tools/logcat>Logcat</a>, I realized I needed to tweak the
+Buildozer configuration to generate an APK for x86_64 and also set the correct
+SDK version. After doing that, I reinstalled the APK, and the game finally
+opened! 🤲</p><p>After all this struggle, I decided to <a href=https://gist.github.com/emersonmx/c5bba202506e3c3d2d828ad278a8d5fe>share the knowledge</a> I gained with
+the Pygame community. However, I also concluded that it might not be worth
+porting my Python game to Android 🙁.</p></article></main><footer class="m-3 text-center"><div>&copy; 2024
+Emerson MX</div></footer></body></html>
