@@ -1,0 +1,83 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><title>Introducing tp: Effortless Tmux Session Management |
+Emerson MX</title><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet type=text/css href="/css/style.363f20acca8382e8016ecb2ae2807a2c8c3b8a8e700ba0124935581664700770.min.css"><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/manifest.json><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><script>(function(e,t,n,s,o){e[s]=e[s]||[],e[s].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var a=t.getElementsByTagName(n)[0],i=t.createElement(n),r=s!="dataLayer"?"&l="+s:"";i.async=!0,i.src="https://www.googletagmanager.com/gtm.js?id="+o+r,a.parentNode.insertBefore(i,a)})(window,document,"script","dataLayer","GTM-K2F66G4")</script></head><body class="flex h-screen flex-col font-mono text-gray-900"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2F66G4" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><header class="mb-5 mt-3"><div class=text-center><p class="text-4xl font-bold leading-none"><a href=/>Emerson MX</a></p><p class="text-sm italic text-gray-700">Developer Journal</p></div></header><main class="mb-auto w-full max-w-screen-sm self-center px-5"><article class=mb-4><h1 class=text-2xl><a href=/posts/introducing-tp/>Introducing tp: Effortless Tmux Session Management</a></h1><time datetime=2024-08-16T10:00:00-0300 class="text-xs text-gray-700">2024-08-16 10:00:00</time><p>Managing <code>tmux</code> sessions can sometimes involve a repetitive dance of
+<code>new-session</code>, <code>new-window</code>, <code>split-window</code>, and <code>send-keys</code> commands. While
+powerful, this manual setup can become cumbersome, especially for complex
+project layouts or when you need to quickly spin up a consistent development
+environment across different machines.</p><p>This is where <code>tp</code> comes in. Inspired by the desire for a simpler, more
+declarative way to handle <code>tmux</code> sessions, <code>tp</code> is a command-line tool written
+in Rust designed to streamline this process. It allows you to define your
+entire <code>tmux</code> session, including multiple windows and panes with specific
+directories and commands, in simple YAML configuration files, and then load
+them with a single command.</p><h2 id=how-tp-streamlines-your-workflow>How tp Streamlines Your Workflow</h2><p><code>tp</code> tackles the problem of <code>tmux</code> session management by shifting from
+imperative commands to declarative configurations. Instead of typing out every
+<code>tmux</code> command, you describe your desired session structure in a file, and <code>tp</code>
+brings it to life.</p><p>Here are its core features:</p><ul><li><strong>Create New Sessions</strong>: Quickly scaffold a new session configuration file
+with a default structure.</li><li><strong>Load Sessions</strong>: Load a pre-defined <code>tmux</code> session. If the session
+doesn't exist, <code>tp</code> creates it; if it already exists, <code>tp</code> switches to it.</li><li><strong>List Sessions</strong>: Easily view all available session configurations in your
+designated sessions directory.</li><li><strong>Shell Completions</strong>: Generate shell completion scripts for various
+shells, improving discoverability and speed.</li></ul><h2 id=configuration-defining-your-session>Configuration: Defining Your Session</h2><p><code>tp</code> looks for session configuration files (YAML files with a <code>.yaml</code>
+extension) in <code>TP_SESSIONS_DIR</code> environment variable, or falling back to
+<code>$HOME/.config/tp/</code>.</p><p>A session file allows you to define the session's name, its base directory, and
+a detailed structure of windows and panes within it.</p><p>Here’s an example structure:</p><div class=highlight><div style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#998;font-style:italic># my-project-session.yaml</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:navy>name</span>:<span style=color:#bbb> </span>my-project-session<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:navy>directory</span>:<span style=color:#bbb> </span>~/Code/my-project<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:navy>windows</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span>- <span style=color:navy>name</span>:<span style=color:#bbb> </span>editor<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:navy>directory</span>:<span style=color:#bbb> </span>~/Code/my-project/src<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:navy>panes</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:navy>focus</span>:<span style=color:#bbb> </span><span style=color:#000;font-weight:700>true</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:navy>command</span>:<span style=color:#bbb> </span>nvim .<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span>- <span style=color:navy>name</span>:<span style=color:#bbb> </span>server<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:navy>panes</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:navy>command</span>:<span style=color:#bbb> </span>cargo run<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span>- <span style=color:navy>name</span>:<span style=color:#bbb> </span>tests<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:navy>panes</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:navy>command</span>:<span style=color:#bbb> </span>cargo test<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:navy>command</span>:<span style=color:#bbb> </span>watch cargo test<span style=color:#bbb>
+</span></span></span></code></pre></td></tr></table></div></div><ul><li><strong><code>name</code></strong>: The unique identifier for your <code>tmux</code> session.</li><li><strong><code>directory</code></strong>: (Optional) The base directory for the session. This can be
+overridden at the window or pane level. Tilde <code>~</code> expansion is supported.</li><li><strong><code>windows</code></strong>: (Optional) A list of window configurations.<ul><li><strong><code>name</code></strong>: (Optional) The name of the <code>tmux</code> window.</li><li><strong><code>directory</code></strong>: (Optional) Overrides the session directory for this window.</li><li><strong><code>panes</code></strong>: (Optional) A list of pane configurations within the window.<ul><li><strong><code>focus</code></strong>: (Optional, default: <code>false</code>) If <code>true</code>, <code>tp</code> selects
+this pane after session creation.</li><li><strong><code>directory</code></strong>: (Optional) Overrides window and session
+directories for this pane.</li><li><strong><code>command</code></strong>: (Optional) A command to execute in this pane upon
+creation.</li></ul></li></ul></li></ul><p>If <code>windows</code> or <code>panes</code> are omitted, <code>tp</code> defaults to creating a single window
+with a single pane.</p><h2 id=usage-examples>Usage Examples</h2><h3 id=create-a-new-session-file>Create a New Session File</h3><p>This command scaffolds a new session configuration file with a default
+structure:</p><div class=highlight><div style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>tp new my-new-session
+</span></span></code></pre></td></tr></table></div></div><p>Example Output:</p><pre tabindex=0><code>Created new session configuration at: /home/user/.config/tp/my-new-session.yaml
+</code></pre><h3 id=load-a-session>Load a Session</h3><p>Load a session defined in a configuration file. <code>tp</code> intelligently creates it
+if it doesn't exist, or switches to it if it's already running.</p><div class=highlight><div style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>tp load my-project-session
+</span></span></code></pre></td></tr></table></div></div><h3 id=list-sessions>List Sessions</h3><p>See all available <code>tmux</code> session configuration files:</p><div class=highlight><div style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>tp list
+</span></span></code></pre></td></tr></table></div></div><p>Example Output:</p><pre tabindex=0><code>my-project-session
+another-session
+my-new-session
+</code></pre><h3 id=generate-shell-completions>Generate Shell Completions</h3><p>Integrate <code>tp</code> with your shell for autocompletion:</p><div class=highlight><div style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>tp completions zsh &gt; _tp
+</span></span><span style=display:flex><span><span style=color:#998;font-style:italic># Then source it in your zshrc, e.g., `source ~/.zsh_completions/_tp`</span>
+</span></span></code></pre></td></tr></table></div></div><p>Replace <code>zsh</code> with your preferred shell.</p><h2 id=behind-the-scenes>Behind the Scenes</h2><p><code>tp</code> is built with Rust, known for its performance and reliability, ensuring
+that your sessions are managed swiftly and dependably. It interacts directly
+with the <code>tmux</code> command-line interface, providing a robust integration without
+unnecessary overhead.</p><h2 id=conclusion>Conclusion</h2><p><code>tp</code> aims to simplify your daily <code>tmux</code> workflow by providing a powerful, yet
+easy-to-use, declarative approach to session management. By defining your
+sessions in clean, human-readable YAML files, you gain reproducibility,
+shareability, and a significant boost in productivity. Give <code>tp</code> a try and
+streamline your <code>tmux</code> experience!</p></article></main><footer class="m-3 text-center"><div>&copy;
+2025
+Emerson MX</div></footer></body></html>
