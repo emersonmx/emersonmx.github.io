@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Emerson MX</title><link>https://blog.emersonmx.dev/posts/</link><description>Recent content in Posts on Emerson MX</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 16 Aug 2024 10:00:00 -0300</lastBuildDate><atom:link href="https://blog.emersonmx.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducing tp: Effortless Tmux Session Management</title><link>https://blog.emersonmx.dev/posts/introducing-tp/</link><pubDate>Fri, 16 Aug 2024 10:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/introducing-tp/</guid><description>&lt;p>Managing &lt;code>tmux&lt;/code> sessions can sometimes involve a repetitive dance of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Emerson MX</title><link>https://blog.emersonmx.dev/posts/</link><description>Recent content in Posts on Emerson MX</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 Aug 2025 11:37:17 -0300</lastBuildDate><atom:link href="https://blog.emersonmx.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Simple Server with libuv</title><link>https://blog.emersonmx.dev/posts/simple-server-libuv/</link><pubDate>Fri, 22 Aug 2025 11:37:17 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/simple-server-libuv/</guid><description>&lt;p>Looking for a simple, modern C server to tinker with? This sample project is a
+minimal HTTP server built using &lt;a href="https://libuv.org/">libuv&lt;/a>, the same
+high-performance event library that powers Node.js.&lt;/p>
+&lt;p>Why libuv? It lets you write asynchronous, cross-platform network code in C
+without the headaches of manual event loops or platform-specific APIs. This
+server listens for HTTP requests, responds with a friendly message, and
+gracefully shuts down when you hit Ctrl+C.&lt;/p>
+&lt;p>The code is intentionally compact—just enough to show how to accept
+connections, read requests, and send responses. If you’re curious about how
+event-driven servers work under the hood, this is a great starting point.&lt;/p></description></item><item><title>Introducing tp: Effortless Tmux Session Management</title><link>https://blog.emersonmx.dev/posts/introducing-tp/</link><pubDate>Fri, 16 Aug 2024 10:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/introducing-tp/</guid><description>&lt;p>Managing &lt;code>tmux&lt;/code> sessions can sometimes involve a repetitive dance of
 &lt;code>new-session&lt;/code>, &lt;code>new-window&lt;/code>, &lt;code>split-window&lt;/code>, and &lt;code>send-keys&lt;/code> commands. While
 powerful, this manual setup can become cumbersome, especially for complex
 project layouts or when you need to quickly spin up a consistent development
