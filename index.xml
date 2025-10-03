@@ -1,62 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Emerson MX</title><link>https://blog.emersonmx.dev/</link><description>Recent content on Emerson MX</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 Aug 2025 11:37:17 -0300</lastBuildDate><atom:link href="https://blog.emersonmx.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Simple Server with libuv</title><link>https://blog.emersonmx.dev/posts/simple-server-libuv/</link><pubDate>Fri, 22 Aug 2025 11:37:17 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/simple-server-libuv/</guid><description>&lt;p>Looking for a simple, modern C server to tinker with? This sample project is a
-minimal HTTP server built using &lt;a href="https://libuv.org/">libuv&lt;/a>, the same
-high-performance event library that powers Node.js.&lt;/p>
-&lt;p>Why libuv? It lets you write asynchronous, cross-platform network code in C
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Emerson MX</title><link>https://blog.emersonmx.dev/</link><description>Recent content on Emerson MX</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 Aug 2025 11:37:17 -0300</lastBuildDate><atom:link href="https://blog.emersonmx.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Simple Server with libuv</title><link>https://blog.emersonmx.dev/posts/simple-server-libuv/</link><pubDate>Fri, 22 Aug 2025 11:37:17 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/simple-server-libuv/</guid><description>&lt;p&gt;Looking for a simple, modern C server to tinker with? This sample project is a
+minimal HTTP server built using &lt;a href="https://libuv.org/"&gt;libuv&lt;/a&gt;, the same
+high-performance event library that powers Node.js.&lt;/p&gt;
+&lt;p&gt;Why libuv? It lets you write asynchronous, cross-platform network code in C
 without the headaches of manual event loops or platform-specific APIs. This
 server listens for HTTP requests, responds with a friendly message, and
-gracefully shuts down when you hit Ctrl+C.&lt;/p>
-&lt;p>The code is intentionally compact—just enough to show how to accept
+gracefully shuts down when you hit Ctrl+C.&lt;/p&gt;
+&lt;p&gt;The code is intentionally compact—just enough to show how to accept
 connections, read requests, and send responses. If you’re curious about how
-event-driven servers work under the hood, this is a great starting point.&lt;/p></description></item><item><title>GymNerd</title><link>https://blog.emersonmx.dev/policies/gymnerd/</link><pubDate>Sat, 31 May 2025 08:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/policies/gymnerd/</guid><description>&lt;h2 id="privacy-policy">Privacy Policy&lt;/h2>
-&lt;h3 id="introduction">Introduction&lt;/h3>
-&lt;p>Welcome to GymNerd! This Privacy Policy is designed to inform you about how
+event-driven servers work under the hood, this is a great starting point.&lt;/p&gt;</description></item><item><title>GymNerd</title><link>https://blog.emersonmx.dev/policies/gymnerd/</link><pubDate>Sat, 31 May 2025 08:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/policies/gymnerd/</guid><description>&lt;h2 id="privacy-policy"&gt;Privacy Policy&lt;/h2&gt;
+&lt;h3 id="introduction"&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Welcome to GymNerd! This Privacy Policy is designed to inform you about how
 we handle your data when you use our Android application (&amp;quot;App&amp;quot;). We value your
-privacy and want to ensure you that your information is safe with us.&lt;/p>
-&lt;h3 id="no-data-collection">No Data Collection&lt;/h3>
-&lt;p>We do not collect, store, or process any personal data or information from
-users of the GymNerd app.&lt;/p>
-&lt;h3 id="childrens-privacy">Children's Privacy&lt;/h3>
-&lt;p>GymNerd is suitable for users of all ages. Since we do not collect any data,
+privacy and want to ensure you that your information is safe with us.&lt;/p&gt;
+&lt;h3 id="no-data-collection"&gt;No Data Collection&lt;/h3&gt;
+&lt;p&gt;We do not collect, store, or process any personal data or information from
+users of the GymNerd app.&lt;/p&gt;
+&lt;h3 id="childrens-privacy"&gt;Children's Privacy&lt;/h3&gt;
+&lt;p&gt;GymNerd is suitable for users of all ages. Since we do not collect any data,
 there is no risk of accidental data collection from children or any other
-users.&lt;/p></description></item><item><title>Introducing tp: Effortless Tmux Session Management</title><link>https://blog.emersonmx.dev/posts/introducing-tp/</link><pubDate>Fri, 16 Aug 2024 10:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/introducing-tp/</guid><description>&lt;p>Managing &lt;code>tmux&lt;/code> sessions can sometimes involve a repetitive dance of
-&lt;code>new-session&lt;/code>, &lt;code>new-window&lt;/code>, &lt;code>split-window&lt;/code>, and &lt;code>send-keys&lt;/code> commands. While
+users.&lt;/p&gt;</description></item><item><title>Introducing tp: Effortless Tmux Session Management</title><link>https://blog.emersonmx.dev/posts/introducing-tp/</link><pubDate>Fri, 16 Aug 2024 10:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/introducing-tp/</guid><description>&lt;p&gt;Managing &lt;code&gt;tmux&lt;/code&gt; sessions can sometimes involve a repetitive dance of
+&lt;code&gt;new-session&lt;/code&gt;, &lt;code&gt;new-window&lt;/code&gt;, &lt;code&gt;split-window&lt;/code&gt;, and &lt;code&gt;send-keys&lt;/code&gt; commands. While
 powerful, this manual setup can become cumbersome, especially for complex
 project layouts or when you need to quickly spin up a consistent development
-environment across different machines.&lt;/p>
-&lt;p>This is where &lt;code>tp&lt;/code> comes in. Inspired by the desire for a simpler, more
-declarative way to handle &lt;code>tmux&lt;/code> sessions, &lt;code>tp&lt;/code> is a command-line tool written
+environment across different machines.&lt;/p&gt;
+&lt;p&gt;This is where &lt;code&gt;tp&lt;/code&gt; comes in. Inspired by the desire for a simpler, more
+declarative way to handle &lt;code&gt;tmux&lt;/code&gt; sessions, &lt;code&gt;tp&lt;/code&gt; is a command-line tool written
 in Rust designed to streamline this process. It allows you to define your
-entire &lt;code>tmux&lt;/code> session, including multiple windows and panes with specific
+entire &lt;code&gt;tmux&lt;/code&gt; session, including multiple windows and panes with specific
 directories and commands, in simple YAML configuration files, and then load
-them with a single command.&lt;/p></description></item><item><title>Difficulties in Building a Pygame Game for Android</title><link>https://blog.emersonmx.dev/posts/difficulties-in-building-a-pygame-game-for-android/</link><pubDate>Thu, 15 Aug 2024 17:03:25 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/difficulties-in-building-a-pygame-game-for-android/</guid><description>&lt;p>Recently, I was taking an &lt;a href="https://developer.android.com/courses">Android&lt;/a> course and got the urge to port a game I
-had made in &lt;a href="https://www.python.org/">Python&lt;/a> to Android. It wasn't difficult to find articles on the
+them with a single command.&lt;/p&gt;</description></item><item><title>Difficulties in Building a Pygame Game for Android</title><link>https://blog.emersonmx.dev/posts/difficulties-in-building-a-pygame-game-for-android/</link><pubDate>Thu, 15 Aug 2024 17:03:25 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/difficulties-in-building-a-pygame-game-for-android/</guid><description>&lt;p&gt;Recently, I was taking an &lt;a href="https://developer.android.com/courses"&gt;Android&lt;/a&gt; course and got the urge to port a game I
+had made in &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt; to Android. It wasn't difficult to find articles on the
 subject, but one common theme was that to run Python on Android, you needed
-&lt;a href="https://github.com/kivy/buildozer">Buildozer&lt;/a>. And so, my saga began.&lt;/p>
-&lt;p>I spent two days wrestling with Buildozer to generate an APK. On the first day,
+&lt;a href="https://github.com/kivy/buildozer"&gt;Buildozer&lt;/a&gt;. And so, my saga began.&lt;/p&gt;
+&lt;p&gt;I spent two days wrestling with Buildozer to generate an APK. On the first day,
 I decided to create a simple example to test the build. After encountering
-several errors, I realized it would be easier to run Buildozer in &lt;a href="https://www.docker.com/">Docker&lt;/a>.
+several errors, I realized it would be easier to run Buildozer in &lt;a href="https://www.docker.com/"&gt;Docker&lt;/a&gt;.
 Luckily, there was already a Dockerfile in the Buildozer project for this
-purpose. With a few adaptations, I had it up and running on my machine.&lt;/p></description></item><item><title>Skelly: A Scaffold Tool</title><link>https://blog.emersonmx.dev/posts/skelly-a-scaffold-tool/</link><pubDate>Thu, 15 Aug 2024 16:30:11 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/skelly-a-scaffold-tool/</guid><description>&lt;p>I've been facing issues with scaffold tools for a long time, whether because
+purpose. With a few adaptations, I had it up and running on my machine.&lt;/p&gt;</description></item><item><title>Skelly: A Scaffold Tool</title><link>https://blog.emersonmx.dev/posts/skelly-a-scaffold-tool/</link><pubDate>Thu, 15 Aug 2024 16:30:11 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/skelly-a-scaffold-tool/</guid><description>&lt;p&gt;I've been facing issues with scaffold tools for a long time, whether because
 they’re slow or missing essential features. But one day, I got tired of these
-limitations and decided to create my own tool 😁.&lt;/p>
-&lt;p>I chose a trendy language (&lt;a href="https://www.rust-lang.org/">Rust&lt;/a>) and started looking for libraries that could
+limitations and decided to create my own tool 😁.&lt;/p&gt;
+&lt;p&gt;I chose a trendy language (&lt;a href="https://www.rust-lang.org/"&gt;Rust&lt;/a&gt;) and started looking for libraries that could
 help me implement what I had in mind. I wanted something easy to install, with
-a template engine similar to &lt;a href="https://jinja.palletsprojects.com/en/2.10.x/">Jinja2&lt;/a>, that could work with pipes and offer
-only the essentials.&lt;/p></description></item><item><title>Tic Tac Toe</title><link>https://blog.emersonmx.dev/policies/tictactoe/</link><pubDate>Wed, 14 Aug 2024 12:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/policies/tictactoe/</guid><description>&lt;h2 id="privacy-policy">Privacy Policy&lt;/h2>
-&lt;h3 id="introduction">Introduction&lt;/h3>
-&lt;p>Welcome to TicTacToe! This Privacy Policy is designed to inform you about how
+a template engine similar to &lt;a href="https://jinja.palletsprojects.com/en/2.10.x/"&gt;Jinja2&lt;/a&gt;, that could work with pipes and offer
+only the essentials.&lt;/p&gt;</description></item><item><title>Tic Tac Toe</title><link>https://blog.emersonmx.dev/policies/tictactoe/</link><pubDate>Wed, 14 Aug 2024 12:00:00 -0300</pubDate><guid>https://blog.emersonmx.dev/policies/tictactoe/</guid><description>&lt;h2 id="privacy-policy"&gt;Privacy Policy&lt;/h2&gt;
+&lt;h3 id="introduction"&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Welcome to TicTacToe! This Privacy Policy is designed to inform you about how
 we handle your data when you use our Android application (&amp;quot;App&amp;quot;). We value your
-privacy and want to ensure you that your information is safe with us.&lt;/p>
-&lt;h3 id="no-data-collection">No Data Collection&lt;/h3>
-&lt;p>We do not collect, store, or process any personal data or information from
-users of the TicTacToe app.&lt;/p>
-&lt;h3 id="childrens-privacy">Children's Privacy&lt;/h3>
-&lt;p>TicTacToe is suitable for users of all ages. Since we do not collect any data,
+privacy and want to ensure you that your information is safe with us.&lt;/p&gt;
+&lt;h3 id="no-data-collection"&gt;No Data Collection&lt;/h3&gt;
+&lt;p&gt;We do not collect, store, or process any personal data or information from
+users of the TicTacToe app.&lt;/p&gt;
+&lt;h3 id="childrens-privacy"&gt;Children's Privacy&lt;/h3&gt;
+&lt;p&gt;TicTacToe is suitable for users of all ages. Since we do not collect any data,
 there is no risk of accidental data collection from children or any other
-users.&lt;/p></description></item><item><title>Starting a Python "project"</title><link>https://blog.emersonmx.dev/posts/starting-a-python-project/</link><pubDate>Mon, 27 Mar 2023 14:00:00 +0000</pubDate><guid>https://blog.emersonmx.dev/posts/starting-a-python-project/</guid><description>&lt;p>Lately, I've been creating a lot of &lt;a href="https://github.com/emersonmx/cookiecutters">cookiecutter templates&lt;/a> to use in my
-throwaway projects. I even created a &lt;a href="https://github.com/emersonmx/dotfiles/blob/main/dot_local/bin/executable_cocu">script&lt;/a> (&lt;code>cocu&lt;/code>) to simplify the
+users.&lt;/p&gt;</description></item><item><title>Starting a Python "project"</title><link>https://blog.emersonmx.dev/posts/starting-a-python-project/</link><pubDate>Mon, 27 Mar 2023 14:00:00 +0000</pubDate><guid>https://blog.emersonmx.dev/posts/starting-a-python-project/</guid><description>&lt;p&gt;Lately, I've been creating a lot of &lt;a href="https://github.com/emersonmx/cookiecutters"&gt;cookiecutter templates&lt;/a&gt; to use in my
+throwaway projects. I even created a &lt;a href="https://github.com/emersonmx/dotfiles/blob/main/dot_local/bin/executable_cocu"&gt;script&lt;/a&gt; (&lt;code&gt;cocu&lt;/code&gt;) to simplify the
 process, but I rarely remember to use it. During this period, I struggled a
-lot with the &lt;code>cookiecutter&lt;/code>, but in the end, I came to the conclusion that it
+lot with the &lt;code&gt;cookiecutter&lt;/code&gt;, but in the end, I came to the conclusion that it
 is simpler to document the process of creating a new project than to blindly
-depend on it.&lt;/p>
-&lt;p>The process I'm following is quite simple; just follow these steps:&lt;/p></description></item><item><title>My First Post</title><link>https://blog.emersonmx.dev/posts/my-first-post/</link><pubDate>Mon, 20 Apr 2020 17:12:58 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/my-first-post/</guid><description>&lt;p>Hello world! :D&lt;/p></description></item></channel></rss>
+depend on it.&lt;/p&gt;
+&lt;p&gt;The process I'm following is quite simple; just follow these steps:&lt;/p&gt;</description></item><item><title>My First Post</title><link>https://blog.emersonmx.dev/posts/my-first-post/</link><pubDate>Mon, 20 Apr 2020 17:12:58 -0300</pubDate><guid>https://blog.emersonmx.dev/posts/my-first-post/</guid><description>&lt;p&gt;Hello world! :D&lt;/p&gt;</description></item></channel></rss>
