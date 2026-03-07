@@ -1,5 +1,5 @@
 <!doctype html><html lang=en><head><meta charset=utf-8><title>Starting a Python "project" |
-Emerson MX</title><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet type=text/css href="/css/style.2b98bcefc9b0ae3dc384b78ea99155591d91d2de25243c1552e940d780f3f81b.min.css"><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/manifest.json><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><script>(function(e,t,n,s,o){e[s]=e[s]||[],e[s].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var a=t.getElementsByTagName(n)[0],i=t.createElement(n),r=s!="dataLayer"?"&l="+s:"";i.async=!0,i.src="https://www.googletagmanager.com/gtm.js?id="+o+r,a.parentNode.insertBefore(i,a)})(window,document,"script","dataLayer","GTM-K2F66G4")</script></head><body class="flex h-screen flex-col font-mono text-gray-900"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2F66G4" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><header class="mb-5 mt-3"><div class=text-center><p class="text-4xl font-bold leading-none"><a href=/>Emerson MX</a></p><p class="text-sm italic text-gray-700">Developer Journal</p></div></header><main class="mb-auto w-full max-w-(--breakpoint-sm) self-center px-5"><article class=mb-4><h1 class=text-2xl><a href=/posts/starting-a-python-project/>Starting a Python "project"</a></h1><time datetime=2023-03-27T14:00:00Z class="text-xs text-gray-700">2023-03-27 14:00:00</time><p>Lately, I've been creating a lot of <a href=https://github.com/emersonmx/cookiecutters>cookiecutter templates</a> to use in my
+Emerson MX</title><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet type=text/css href="/css/style.a0c5acd072685dd0400b43cae5c5b15f8be710e34f733872be8cad3f79236433.min.css"><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/manifest.json><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"></head><body class="flex h-screen flex-col font-mono text-gray-900"><header class="mb-5 mt-3"><div class=text-center><p class="text-4xl font-bold leading-none"><a href=/>Emerson MX</a></p><p class="text-sm italic text-gray-700">Developer Journal</p></div></header><main class="mb-auto w-full max-w-(--breakpoint-sm) self-center px-5"><article class=mb-4><h1 class=text-2xl><a href=/posts/starting-a-python-project/>Starting a Python "project"</a></h1><time datetime=2023-03-27T14:00:00Z class="text-xs text-gray-700">2023-03-27 14:00:00</time><p>Lately, I've been creating a lot of <a href=https://github.com/emersonmx/cookiecutters>cookiecutter templates</a> to use in my
 throwaway projects. I even created a <a href=https://github.com/emersonmx/dotfiles/blob/main/dot_local/bin/executable_cocu>script</a> (<code>cocu</code>) to simplify the
 process, but I rarely remember to use it. During this period, I struggled a
 lot with the <code>cookiecutter</code>, but in the end, I came to the conclusion that it
@@ -7,4 +7,23 @@ is simpler to document the process of creating a new project than to blindly
 depend on it.</p><p>The process I'm following is quite simple; just follow these steps:</p><ul><li>Create and change to a new directory (<code>mkdir yolo && cd yolo</code>)</li><li>Create a <code>direnv</code> file (<code>.envrc</code>) and allow it to run (<code>cocu python/direnv && direnv allow .</code>)</li><li>Create a <code>virtualenv</code> (<code>python -m venv .venv</code>)</li><li>Create a simple <code>main.py</code> with a "Hello World" and start hacking</li></ul><p>Until I find a simpler way to do this for more complex projects, I'll keep
 creating projects manually.</p></article></main><footer class="m-3 text-center"><div>&copy;
 2026
-Emerson MX</div></footer></body></html>
+Emerson MX</div></footer><div id=cookie-consent-banner class="fixed bottom-0 left-0 w-full bg-gray-900 text-white px-4 py-4 items-center justify-center z-50 shadow hidden"><span class="mr-5 text-sm">This website uses cookies to enhance your experience.</span>
+<button id=accept-cookies class="bg-white hover:bg-gray-100 text-gray-900 text-sm px-3 py-1 rounded border border-gray-300 transition">
+Accept</button></div><script>const COOKIE_NAME="cookie_consent",COOKIE_ACCEPTED_NAME="accepted",GTM_HEAD=`
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K2F66G4');</script>
+
+`,GTM_BODY=`
+<noscript
+    ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K2F66G4"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+    ></iframe
+></noscript>
+
+`;function checkConsent(){return localStorage.getItem(COOKIE_NAME)===COOKIE_ACCEPTED_NAME}function loadGTM(){document.head.insertAdjacentHTML("beforeend",GTM_HEAD),document.body.insertAdjacentHTML("afterbegin",GTM_BODY)}function showBanner(){const e=document.getElementById("cookie-consent-banner");e.classList.remove("hidden"),e.classList.add("flex")}function hideBanner(){const e=document.getElementById("cookie-consent-banner");e.classList.remove("flex"),e.classList.add("hidden")}document.addEventListener("DOMContentLoaded",function(){checkConsent()?loadGTM():(showBanner(),document.getElementById("accept-cookies").addEventListener("click",function(){localStorage.setItem(COOKIE_NAME,COOKIE_ACCEPTED_NAME),hideBanner(),loadGTM()}))})</script></body></html>
